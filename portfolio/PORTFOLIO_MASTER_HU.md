@@ -4,24 +4,15 @@
 **AI munkafolyamat- és validációs elemző**
 
 - **Logical Object ID:** PORTFOLIO-MASTER-HU
-- **Version:** v3.3.1 (Public GitHub Edition)
-- **Parent version:** v3.3 Public GitHub draft
-- **Release timestamp:** 2026-09-18 20:37:42 CEST
+- **Version:** v3.3.2 (Public GitHub Edition)
+- **Parent version:** v3.3.1 Public GitHub Edition
+- **Release timestamp:** 2026-09-19 07:06:55 CEST
 - **Portfolio owner:** Almási Andor
-- **Preparation:** AI-assisted, cross-validated, human-reviewed
+- **Preparation:** AI-assisted, cross-model reviewed, human-reviewed
 
 AI-támogatott munkafolyamat-tervezés · Human-in-the-loop validáció ·  
-Többmodellű keresztellenőrzés · Auditálhatóság és proveniencia ·  
+Többmodellű felülvizsgálat · Auditálhatóság és proveniencia ·  
 Prototípusértékelés · Hibamód-elemzés · Strukturált rendszerlogika
-
-# VÁLTOZÁSNAPLÓ v3.3 → v3.3.1
-
-1. MATRIX-A: az explicit kínai tartalmi megjelölés helyreállítva az eredeti vállalati dokumentum alapján.
-2. MATRIX-SYS: a partner és képviselő nyilvános adatai transzparensen anonimizálva; fiktív adatok nélkül.
-3. MATRIX-00: az írásos partneri felülvizsgálat és az A/B/C formális megerősítő dokumentumok bizonyítéktípusa elkülönítve.
-4. Forráskód-hozzáférés: automatikus hozzáférési ígéret helyett egyedi szakmai/technikai egyeztetés.
-5. GitHub-formázás: teljes Markdown- és fejezetszámozási tisztítás; generálási maradványok eltávolítva.
-6. Nyelvi és szakmai túlállítások eltávolítva; a technikai sarokszámok konkrét verziókhoz kötve maradnak.
 
 # A. RÉSZ — SZAKMAI PORTFÓLIÓ
 
@@ -30,15 +21,15 @@ Prototípusértékelés · Hibamód-elemzés · Strukturált rendszerlogika
 Munkám az emberi döntéshozatal és a fejlett AI-rendszerek közötti
 gyakorlati működési rétegre összpontosít.
 
-Az AI-modelleket nem egyszerű chatbotként használom, hanem különálló
-elemzési, fejlesztési, ellenőrzési és keresztvalidációs eszközökként.
+Az AI-modelleket elkülönített szerepekben használom elemzésre, fejlesztésre,
+ellenőrzésre és többmodellű felülvizsgálatra.
 
 Munkáimban visszatérően az alábbi területekkel foglalkozom:
 
 - strukturált AI-munkafolyamatok kialakítása;
 - LLM-kimenetek validációja;
 - human-in-the-loop kontroll;
-- többmodellű keresztellenőrzés;
+- többmodellű felülvizsgálat;
 - hibamódok felismerése és dokumentálása;
 - auditálhatóság és proveniencia;
 - prototípusok gyakorlati vizsgálata;
@@ -58,24 +49,13 @@ A cél az, hogy az elkészült eredményről meg lehessen állapítani:
 miből készült -> hogyan készült -> hogyan ellenőriztük ->
 hol vannak a működési határai -> ki hozza meg a végső döntést.
 
-## 2. ÖNIRÁNYÍTOTT SZAKMAI FEJLŐDÉS
+## 2. SZAKMAI FEJLŐDÉS
 
-Szakmai fejlődésem következetesen önirányított és problémavezérelt volt.
+Szakmai fejlődésem problémavezérelt és önirányított. Konkrét műszaki vagy működési problémák köré építem fel a szükséges tudást, majd megvalósítással, reprodukcióval és korrekcióval ellenőrzöm.
 
-Nem képesítések megszerzése határozta meg, hogy milyen területtel foglalkozom,
-hanem az, hogy egy műszaki vagy gyakorlati probléma megoldásához milyen
-tudásra volt szükség.
+A hátterem gyakorlati elektronikai és villamos rendszerekkel végzett munkát, később AI-munkafolyamatok, validációs módszerek és többmodellű felülvizsgálat vizsgálatát foglalja magában.
 
-A műszaki-elektronikai és villamos rendszerekkel kapcsolatos gyakorlati
-problémamegoldástól jutottam el az AI-rendszerek, validációs folyamatok
-és többmodellű munkamódszerek vizsgálatáig.
-
-Jellemző tanulási módszerem:
-
-probléma -> szükséges tudás azonosítása -> önálló feldolgozás ->
-gyakorlati alkalmazás -> tesztelés -> korrekció
-
-A hangsúly mindig az alkalmazható kompetencián volt.
+A portfólió ezért a bemutatható munkára, dokumentált bizonyítékokra, reprodukálható ellenőrzésekre és egyértelmű működési határokra helyezi a hangsúlyt.
 
 ## 3. KIEMELT PROJEKT — RQV v2.7
 Structured LLM Output Validation and Failure-Symptom Detection Framework
@@ -121,6 +101,8 @@ Dokumentált tünetosztályok:
   policy_style_intrusion
   intent_drift
   operator_context_loss
+
+Ezek az RQV projekten belül definiált heurisztikus címkék; nem iparági standard taxonómiaként szerepelnek.
 
 Gyakorlati cél:
 
@@ -227,7 +209,7 @@ A StarLogicRecenter determinisztikus lexikai/recenter kontrollprototípus.
 
 Regressziós eredmény: 48 PASS / 0 FAIL
 
-Független challenge-próbában két tematikailag összetartozó kimenet mellé
+Külön challenge-próbában két tematikailag összetartozó kimenet mellé
 szándékosan irreleváns, magas bizonyosságú outlier került. A rendszer ezt
 azonosította a legerősebb eltérésként. Magas bizonyosságú konfliktus esetén
 REGENERATE / HUMAN_GATE irányt adott.
@@ -256,7 +238,7 @@ Az ellenőrzés során:
 - a beágyazott Python-kódot kiemeltük;
 - szintaktikailag ellenőriztük;
 - lefuttattuk;
-- a dokumentált numerikus eredménysort függetlenül újraszámítottuk.
+- a dokumentált numerikus eredménysort külön újraszámítottuk.
 
 A 0-8 iteráció eredményei egyeztek a dokumentált értékekkel.
 
@@ -310,9 +292,7 @@ hogy a MATRIX-00-t áttanulmányozta, és alapvetően egyetértettek azzal a log
 hogy a működési kereteket a végleges szerződés előtt lépésről lépésre kell
 tisztázni.
 
-Ez dokumentált külső partneri visszaigazolása annak, hogy a teljes
-keretrendszer nem pusztán belső koncepció volt, hanem valós nemzetközi
-együttműködési folyamatban ténylegesen felülvizsgálatra került.
+Ez dokumentálja, hogy a keretrendszert egy tényleges nemzetközi együttműködési folyamatban felülvizsgálták.
 
 A MATRIX-SYS együttműködés-strukturáló rendszerként készült. A dokumentum
 elkészítésekor a felek közötti együttműködés tárgyalási és előkészítési
@@ -355,7 +335,6 @@ A megerősítő levelek szövege szerint a munkatartalmat teljes
 dokumentum-ellenőrzés, folyamat-felülvizsgálat és belső végső ellenőrzés
 után erősítették meg.
 
-Ez a portfólió legerősebb külső, vállalati eredetű bizonyítékai közé tartozik.
 
 ### 6.3 Technikai és piaci tanácsadói szerep
 
@@ -365,9 +344,7 @@ kívántak bevonni. Azt is jelezte, hogy a jövőbeli munkaterveim és szakmai
 elképzeléseim megismerése alapján kívánják alakítani saját csapatstruktúrájukat
 és munkamegosztásukat.
 
-Ez további külső referencia arra, hogy a munkát nem egyszerű
-dokumentumkészítésként értékelték, hanem egy szélesebb technikai, szervezeti
-és piaci együttműködés részeként.
+Ez a levelezés olyan javasolt szerepet dokumentál, amely a dokumentumkészítésen túl technikai, szervezeti és piaci feladatokra is kiterjed.
 
 ## 7. MUNKAMÓDSZER
 
@@ -387,7 +364,7 @@ Nagy problémák esetén kisebb, külön vizsgálható egységeket hozok létre.
 Ez csökkenti annak kockázatát, hogy egyetlen hibás feltételezés az egész
 eredményt eltorzítsa.
 
-### 7.3 Több AI-motor eltérő szerepekben
+### 7.3 Több AI-modell eltérő szerepekben
 
 A különböző AI-modelleket nem feltétlenül ugyanarra a kérdésre adott
 "második véleményként" használom. Külön szerepeket is kaphatnak:
@@ -399,12 +376,9 @@ A különböző AI-modelleket nem feltétlenül ugyanarra a kérdésre adott
 - dokumentum-összevetés;
 - terminológiai kontroll;
 - fordításellenőrzés;
-- technikai keresztvalidáció.
+- technikai keresztellenőrzés.
 
-A jelenlegi Plus-Claude keresztvalidációs munkamódszer kézi, promptszintű
-koordinációval működik; a szintézist és a végső döntést az emberi operátor
-végzi. A különböző motorok válaszait nem egyesítem automatikusan.
-Az eltérés maga is információ.
+A jelenlegi többmodellű felülvizsgálati munkafolyamat kézi, promptszintű koordinációval működik; a szintézis és a végső döntés az emberi operátornál marad. A különböző modellek kimenetei nem kerülnek automatikusan összevonásra, az eltérések pedig külön ellenőrzési jelzésként megmaradnak.
 
 ### 7.4 Futtatás és reprodukció
 
@@ -460,9 +434,7 @@ Szakmailag érzékeny területeken is dolgoztam ilyen formában, többek közöt
 - műszaki anyagokkal;
 - nemzetközi üzleti dokumentumokkal.
 
-Megbízók és szakmai partnerek — köztük ügyvédek, orvosok és vállalati
-szereplők — elfogadták az AI-támogatott munkamódszer alkalmazását, amikor
-átlátható volt számukra, hogy nem ellenőrizetlen chatbot-generálás történik.
+AI-támogatott munkafolyamatot jogi, egészségügyi, műszaki és nemzetközi üzleti dokumentációs környezetben is alkalmaztam. Ahol releváns volt, az AI-eszköz használata transzparensen szerepelt, és az eredmény emberi felülvizsgálat alatt maradt.
 
 A munka lényege:
 
@@ -474,9 +446,9 @@ a munkában, hanem az, hogy a leadott eredmény pontos, ellenőrizhető és
 használható-e.
 
 Nemzetközi projektekben AI-támogatott többnyelvű írásos kommunikációt,
-terminológiai ellenőrzést és keresztvalidációt is alkalmazok.
+terminológiai ellenőrzést és többmodellű felülvizsgálatot is alkalmazok.
 
-## 9. SZAKMAI POZICIONÁLÁS
+## 9. SZAKMAI FÓKUSZ
 
 Elsődleges szakmai megnevezés:
 
@@ -496,14 +468,11 @@ Fő működési területek:
 - complex problem decomposition
 - evidence-based technical documentation
 
-Ez a megnevezés azt a munkát írja le, amelyet a dokumentált projektek,
-futtatások és külső bizonyítékok ténylegesen alátámasztanak.
+Ezt a megnevezést a dokumentált munka rövid leírására használom.
 
 ## 10. LEHETSÉGES EGYÜTTMŰKÖDÉSI TERÜLETEK
 
-A legerősebb illeszkedést olyan szervezeteknél látom, amelyek már használnak
-AI-rendszereket, de szükségük van strukturáltabb ellenőrzési, dokumentációs
-vagy emberi kontrollfolyamatokra.
+Releváns együttműködési környezetet jelentenek azok a szervezetek, amelyek már használnak AI-rendszereket, és strukturáltabb ellenőrzési, dokumentációs vagy emberi kontrollfolyamatokra van szükségük.
 
 Lehetséges területek:
 
@@ -529,8 +498,7 @@ vagy validációs probléma. Ez lehetőséget ad arra, hogy a munkamódszer
 
 ## 11. A REPRODUKCIÓS ELLENŐRZÉS MÓDJA
 
-A technikai projektek egy részét a Plus-Claude keresztvalidációs folyamat
-során külön ellenőriztük.
+A technikai projektek egy részét dokumentált többmodellű felülvizsgálati folyamatban külön ellenőriztük.
 
 A reprodukció célja az volt, hogy ahol lehetséges:
 
@@ -540,10 +508,7 @@ A reprodukció célja az volt, hogy ahol lehetséges:
 - a dokumentált eredmény és a reprodukált eredmény összevethető legyen;
 - a hibák is reprodukálhatók legyenek.
 
-A reprodukció nem Andor személyes kézi futtatásaként történt. Az RQV v2.7
-és az AGI-LOOP referencia-implementáció futtatása a Plus-Claude
-keresztvalidációs folyamat részeként, AI-motor végrehajtási környezetben
-valósult meg. Az eredmények a keresztvalidáció dokumentált kimenetei.
+Az RQV v2.7 és az AGI-LOOP referencia-implementációk futtatása AI-eszközök végrehajtási környezetében, a dokumentált felülvizsgálati munkafolyamat részeként történt; nem a portfólió tulajdonosának kézi helyi futtatásai voltak. A közölt eredmények ezekre a rögzített futtatásokra vonatkoznak.
 
 ### Forráskód és validációs artefaktumok hozzáférhetősége
 
@@ -592,7 +557,7 @@ Policy stop:
 Emberi jóváhagyás hiánya:
   NO_HUMAN         ->  REJECT
 
-Független hash-ellenőrzővel egy köztes auditblokk módosítása
+Külön hash-ellenőrzővel egy köztes auditblokk módosítása
 detektálható volt.
 
 A referencia demonstrálja:
@@ -614,7 +579,7 @@ Vizsgált változatok:
   GEH Core variant 1
   GEH Core variant 2
 
-Mindhárom változat ugyanazon 13 / 13 független alapfunkciós próbát
+Mindhárom változat ugyanazon 13 / 13 külön alapfunkciós próbát
 teljesítette.
 
 Tesztelt funkcióterületek:
@@ -637,7 +602,7 @@ igényelnek. Ez a verzióállapot a fejlesztési dokumentáció explicit része.
 Verzió:               v1.0.1
 Regressziós eredmény: 48 PASS / 0 FAIL
 
-Független challenge-tesztben az irreleváns, magas bizonyosságú outlier
+Külön challenge-tesztben az irreleváns, magas bizonyosságú outlier
 a legerősebb eltérésként került azonosításra.
 
 Konfliktus esetén a rendszer REGENERATE / HUMAN_GATE irányt adott.
@@ -709,45 +674,26 @@ MATRIX-C — 2026. szeptember 11.
 A munkatartalmat teljes dokumentum-ellenőrzésre, folyamat-felülvizsgálatra
 és belső végső ellenőrzésre hivatkozva erősítették meg.
 
-## 18. KÜLSŐ SZAKMAI KÖRNYEZET ÉS AI-HASZNÁLAT
+## 18. SZAKMAI KÖRNYEZET ÉS AI-HASZNÁLAT
 
-A munkamódszerem szempontjából lényeges tapasztalat, hogy szakmai partnerek
-nem önmagában az AI-eszköz használatát értékelik, hanem a végeredmény
-minőségét és ellenőrizhetőségét.
+AI-támogatott munkafolyamatokat jogi, egészségügyi, műszaki és nemzetközi üzleti dokumentációs környezetben is alkalmaztam. Ahol releváns volt, az AI-használat a szakmai partnerek felé transzparensen szerepelt, a végső output pedig emberi felülvizsgálat alatt maradt.
 
-Ügyvédek, orvosok és vállalati szereplők előtt is transzparensen kezeltem,
-hogy AI-rendszereket használok a munkafolyamatban.
-
-A különbség az ellenőrizetlen generáláshoz képest:
-
-- a feladat strukturált;
-- a forrás elkülönül;
-- a modellek külön szerepet kapnak;
-- a kimenet keresztellenőrizhető;
-- a korrekció dokumentálható;
-- a végső döntés emberi kontroll alatt marad.
-
-Ez a működés több szakmai környezetben elfogadhatónak és használhatónak
-bizonyult.
+A portfólióban alkalmazott kontrollmodell elkülöníti a forrásanyagot, a modellek szerepeit, az ellenőrzési lépéseket és a végső emberi döntési jogosultságot. A bizonyítéki rekordot érintő korrekciók és lényeges változások dokumentálva maradnak.
 
 ## 19. PORTFÓLIÓ-ÖSSZEFOGLALÓ
 
 Almási Andor — AI Workflow & Validation Analyst
 
-Munkám strukturált AI-munkafolyamatokat, emberi kontroll alatt működő
-validációt, többmodellű keresztellenőrzést, reprodukálható technikai
-vizsgálatot és bizonyítékalapú projektstrukturálást kapcsol össze.
+Munkám strukturált AI-munkafolyamatokat, emberi kontroll alatt működő validációt, többmodellű felülvizsgálatot, reprodukálható technikai vizsgálatot és bizonyítékalapú projektstrukturálást kapcsol össze.
 
-A portfólió mögött nem kizárólag koncepciók állnak.
-
-Rendelkezésre állnak:
+A portfólió az alábbi bizonyítéktípusokat tartalmazza:
 
 - futtatható Python-artefaktumok;
 - reprodukált regressziós tesztek;
 - forráshash-ek;
-- független ellenpróbák;
+- külön ellenpróbák;
 - dokumentált hibák és verziójavítások;
-- többmotoros keresztvalidáció;
+- többmodellű felülvizsgálat;
 - valós üzleti projektanyagok;
 - külső vállalati visszajelzések;
 - aláírt és céges pecséttel ellátott megerősítő dokumentumok.
@@ -761,14 +707,5 @@ A hibát megtalálni és dokumentálni.
 A bizonyítékot megőrizni.
 A végső döntést emberi kontroll alatt tartani.
 
-Ezt a munkamódszert olyan konkrét AI-, validációs vagy komplex
-rendszerproblémákon tudom alkalmazni, ahol a megbízó számára fontos az
-ellenőrizhetőség, a dokumentálhatóság és az emberi döntési kontroll.
+A módszer olyan AI-, validációs és összetett rendszerproblémákra alkalmazható, ahol az ellenőrizhetőség, a dokumentálhatóság és az emberi döntési kontroll lényegi követelmény.
 
-# VERZIÓREGISZTER
-
-- **v3.0 — 2026-09-18 — Plus motor:** első teljes magyar Master.
-- **v3.1 — 2026-09-18 — Plus motor:** kommunikációs, MATRIX-szétválasztási és zárási javítások.
-- **v3.2 — 2026-09-18 — Claude motor:** MATRIX-00 szerződéses implikáció pontosítása; reprodukciós környezet tisztázása; MATRIX-A bizonyítási szintjének korábbi jelölése.
-- **v3.3 — 2026-09-18 — Claude motor:** Public GitHub draft; transzparens anonimizálás, MATRIX-00 bizonyítéktípusok elkülönítése, forráskód-hozzáférési szöveg.
-- **v3.3.1 — 2026-09-18 20:37:42 CEST — Plus–Claude keresztvalidált kiadás:** MATRIX-A explicit kínai megjelölésének korrekciója; Markdown- és számozási hibák javítása; túlállítások eltávolítása; nyilvános GitHub-kiadás véglegesítése.

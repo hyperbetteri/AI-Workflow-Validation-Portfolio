@@ -3,24 +3,15 @@
 **AI Workflow & Validation Analyst**
 
 - **Logical Object ID:** PORTFOLIO-MASTER-EN
-- **Version:** v3.3.1 (Public GitHub Edition)
-- **Parent version:** v3.3 Public GitHub draft
-- **Release timestamp:** 2026-09-18 20:37:42 CEST
+- **Version:** v3.3.2 (Public GitHub Edition)
+- **Parent version:** v3.3.1 Public GitHub Edition
+- **Release timestamp:** 2026-09-19 07:06:55 CEST
 - **Portfolio owner:** Almási Andor
-- **Preparation:** AI-assisted, cross-validated, human-reviewed
+- **Preparation:** AI-assisted, cross-model reviewed, human-reviewed
 
 AI-assisted workflow design · Human-in-the-loop validation ·  
-Multi-model cross-validation · Auditability and provenance ·  
+Multi-model review · Auditability and provenance ·  
 Prototype evaluation · Failure-mode analysis · Structured systems logic
-
-# CHANGELOG v3.3 → v3.3.1
-
-1. MATRIX-A: restored the explicit Chinese content identification from the original corporate document.
-2. MATRIX-SYS: partner and representative information transparently anonymised in the public edition, without fictitious substitutions.
-3. MATRIX-00: separated written partner review from the formal A/B/C corporate confirmation evidence.
-4. Source access: replaced automatic access language with individually agreed professional/technical review wording.
-5. GitHub formatting: cleaned Markdown, section numbering and generation artefacts.
-6. Removed unsupported overclaims while retaining version-bound technical metrics and hashes.
 
 # PART A — PROFESSIONAL PORTFOLIO
 
@@ -29,15 +20,15 @@ Prototype evaluation · Failure-mode analysis · Structured systems logic
 My work focuses on the practical operating layer between human decision-making
 and advanced AI systems.
 
-I do not use AI models as simple chatbots, but as separate analytical,
-development, verification and cross-validation tools.
+I use AI models in distinct roles for analysis, development, verification and
+cross-model review.
 
 My work repeatedly involves the following areas:
 
 - structured AI workflow design;
 - LLM output validation;
 - human-in-the-loop control;
-- multi-model cross-validation;
+- multi-model review;
 - failure-mode identification and documentation;
 - auditability and provenance;
 - practical evaluation of prototypes;
@@ -57,25 +48,13 @@ The objective is to be able to determine about the final result:
 what it was based on -> how it was produced -> how it was checked ->
 where its operating boundaries are -> who makes the final decision.
 
-## 2. SELF-DIRECTED PROFESSIONAL DEVELOPMENT
+## 2. PROFESSIONAL DEVELOPMENT
 
-My professional development has consistently been self-directed and
-problem-driven.
+My professional development is problem-driven and self-directed. I build knowledge around concrete technical or operational problems, then test it through implementation, reproduction and correction.
 
-What determined the areas I worked in was not the acquisition of formal
-qualifications, but what knowledge was required to solve a technical or
-practical problem.
+My background includes practical work with electronic and electrical systems and later AI workflows, validation methods and multi-model review.
 
-I progressed from practical problem-solving involving electronic and electrical
-systems to the study of AI systems, validation processes and multi-model
-working methods.
-
-My typical learning process is:
-
-problem -> identify required knowledge -> independent study ->
-practical application -> testing -> correction
-
-The emphasis has always been on applicable competence.
+This portfolio emphasizes demonstrable work, documented evidence, reproducible checks and explicit operating limits.
 
 ## 3. SELECTED PROJECT — RQV v2.7
 Structured LLM Output Validation and Failure-Symptom Detection Framework
@@ -121,6 +100,8 @@ Documented symptom classes:
   policy_style_intrusion
   intent_drift
   operator_context_loss
+
+These are project-defined heuristic labels used by RQV; they are not presented as an industry-standard taxonomy.
 
 Practical objective:
 
@@ -218,8 +199,7 @@ still under development. Examples of development hooks include:
   _detect_drift
   _detect_unsubstantiated_facts
 
-This makes it possible to treat GEH-Core not merely as a theoretical concept,
-but as a versioned, runnable and examinable development system.
+The documented state distinguishes implemented behaviour from development hooks and keeps the current operating scope explicit.
 
 ### 5.2 StarLogicRecenter v1.0.1
 
@@ -227,7 +207,7 @@ StarLogicRecenter is a deterministic lexical/recenter control prototype.
 
 Regression result: 48 PASS / 0 FAIL
 
-In an independent challenge test, an intentionally irrelevant high-confidence
+In an separate challenge test, an intentionally irrelevant high-confidence
 outlier was placed next to two thematically aligned outputs. The system
 identified it as the strongest deviation. In a high-confidence conflict, it
 returned a REGENERATE / HUMAN_GATE direction.
@@ -256,7 +236,7 @@ During verification:
 - the embedded Python code was extracted;
 - syntax was checked;
 - the code was executed;
-- the documented numerical result sequence was independently recalculated.
+- the documented numerical result sequence was recalculated separately.
 
 The results for iterations 0-8 matched the documented values.
 
@@ -312,9 +292,7 @@ stated that MATRIX-00 had been reviewed and that they fundamentally agreed with
 the logic that the operating frameworks should be clarified step by step before
 the final contract.
 
-This is documented external partner confirmation that the complete framework
-was not merely an internal concept, but was actually reviewed in a real
-international cooperation process.
+This documents that the framework was reviewed within an active international cooperation process.
 
 MATRIX-SYS was created as a cooperation-structuring system. At the time the
 document was prepared, cooperation between the parties was in the negotiation
@@ -356,8 +334,6 @@ Chinese content identifications:
 According to the confirmation letters, the work content was confirmed after
 complete document verification, process review and internal final review.
 
-This is among the strongest external, company-originating evidence in the
-portfolio.
 
 ### 6.3 Technical and market advisory role
 
@@ -367,9 +343,7 @@ and market advisory role. She also indicated that they intended to shape their o
 structure and division of work based on understanding my future work plans and
 professional ideas.
 
-This is an additional external reference showing that the work was not viewed
-merely as document preparation, but as part of a broader technical,
-organisational and market cooperation.
+This correspondence documents a proposed role extending beyond document preparation to technical, organisational and market-facing work.
 
 ## 7. WORKING METHOD
 
@@ -388,7 +362,7 @@ Before starting a task, I separate:
 For large problems, I create smaller, separately examinable units. This reduces
 the risk that a single incorrect assumption distorts the entire result.
 
-### 7.3 Different roles for multiple AI motors
+### 7.3 Different roles for multiple AI models
 
 I do not necessarily use different AI models simply as a "second opinion" on
 the same question. They may be assigned different roles:
@@ -400,12 +374,9 @@ the same question. They may be assigned different roles:
 - document comparison;
 - terminology control;
 - translation checking;
-- technical cross-validation.
+- technical cross-checking.
 
-The current Plus-Claude cross-validation working method operates through manual,
-prompt-level coordination; synthesis and the final decision are performed by
-the human operator. I do not automatically merge the outputs of the different
-motors. The divergence itself is information.
+The current multi-model review workflow uses manual, prompt-level coordination; synthesis and the final decision remain with the human operator. Outputs are not merged automatically, and disagreements are retained as review signals.
 
 ### 7.4 Execution and reproduction
 
@@ -461,9 +432,7 @@ I have also worked in this format in professionally sensitive areas, including:
 - technical materials;
 - international business documentation.
 
-Clients and professional counterparts — including lawyers, physicians and
-corporate actors — accepted the use of AI-assisted working methods when it was
-transparent to them that this was not unchecked chatbot generation.
+I have applied AI-assisted workflows in legal, healthcare, technical and international business documentation contexts. Where relevant, the use of AI tooling was disclosed and the resulting work remained subject to human review.
 
 The essence of the work:
 
@@ -475,9 +444,9 @@ the work, but by whether the delivered result is accurate, verifiable and
 usable.
 
 In international projects, I also use AI-assisted multilingual written
-communication, terminology checking and cross-validation.
+communication, terminology checking and cross-model review.
 
-## 9. PROFESSIONAL POSITIONING
+## 9. PROFESSIONAL FOCUS
 
 Primary professional title:
 
@@ -496,13 +465,11 @@ Core working areas:
 - complex problem decomposition
 - evidence-based technical documentation
 
-This title describes the work that is actually supported by the documented
-projects, executions and external evidence.
+This title is used here as a concise description of the documented work.
 
 ## 10. POTENTIAL COLLABORATION AREAS
 
-I see the strongest fit with organisations that already use AI systems but need
-more structured verification, documentation or human-control processes.
+Relevant collaboration contexts include organisations that already use AI systems and need more structured verification, documentation or human-control processes.
 
 Potential areas:
 
@@ -528,8 +495,7 @@ method through a concrete result.
 
 ## 11. REPRODUCTION VERIFICATION METHOD
 
-Some of the technical projects were separately checked during the Plus-Claude
-cross-validation process.
+Some of the technical projects were separately checked within a documented multi-model review workflow.
 
 The objective of reproduction was, where possible, to ensure that:
 
@@ -539,10 +505,7 @@ The objective of reproduction was, where possible, to ensure that:
 - the documented result could be compared with the reproduced result;
 - errors could also be reproduced.
 
-The reproduction was not performed as Andor's personal manual execution. The
-RQV v2.7 and AGI-LOOP reference implementations were executed as part of the
-Plus-Claude cross-validation process in an AI-motor execution environment. The
-results are documented outputs of the cross-validation process.
+The RQV v2.7 and AGI-LOOP reference implementations were executed in AI-tool environments as part of the documented review workflow; they were not manual local runs by the portfolio owner. The reported results refer to those recorded executions.
 
 ## 12. RQV v2.7 — EVIDENCE RECORD
 
@@ -582,7 +545,7 @@ Policy stop:
 Absence of human approval:
   NO_HUMAN         ->  REJECT
 
-Using an independent hash checker, modification of an intermediate audit block
+Using a separate hash checker, modification of an intermediate audit block
 was detectable.
 
 The reference demonstrates:
@@ -604,7 +567,7 @@ Examined versions:
   GEH Core variant 1
   GEH Core variant 2
 
-All three versions completed the same 13 / 13 independent basic-function probe.
+All three versions completed the same 13 / 13 separate basic-function probe.
 
 Tested functional areas:
 
@@ -626,7 +589,7 @@ This version state is an explicit part of the development documentation.
 Version:              v1.0.1
 Regression result:    48 PASS / 0 FAIL
 
-In an independent challenge test, the irrelevant high-confidence outlier was
+In an separate challenge test, the irrelevant high-confidence outlier was
 identified as the strongest deviation.
 
 In a conflict, the system returned a REGENERATE / HUMAN_GATE direction.
@@ -698,45 +661,26 @@ MATRIX-C — 11 September 2026
 The work content was confirmed with reference to complete document verification,
 process review and internal final review.
 
-## 18. EXTERNAL PROFESSIONAL CONTEXT AND AI USE
+## 18. PROFESSIONAL CONTEXT AND AI USE
 
-A significant experience in my working method is that professional counterparts
-do not evaluate the use of AI tools in itself, but the quality and verifiability
-of the final result.
+AI-assisted workflows have been used in legal, healthcare, technical and international business documentation contexts. Where relevant, AI use was disclosed to professional counterparts and the final output remained subject to human review.
 
-I have been transparent before lawyers, physicians and corporate actors that I
-use AI systems in the workflow.
-
-The difference compared with unchecked generation is that:
-
-- the task is structured;
-- the source is separated;
-- the models receive different roles;
-- the output can be cross-checked;
-- corrections can be documented;
-- the final decision remains under human control.
-
-This operating method has proved acceptable and usable in multiple professional
-environments.
+The control model used in this portfolio separates source material, model roles, review steps and final human decision authority. Corrections and material changes are documented when they affect the evidence record.
 
 ## 19. PORTFOLIO SUMMARY
 
 Almási Andor — AI Workflow & Validation Analyst
 
-My work combines structured AI workflows, human-controlled validation,
-multi-model cross-validation, reproducible technical examination and
-evidence-based project structuring.
+My work combines structured AI workflows, human-controlled validation, multi-model review, reproducible technical examination and evidence-based project structuring.
 
-The portfolio is backed by more than concepts alone.
-
-Available evidence includes:
+The portfolio includes the following evidence:
 
 - runnable Python artefacts;
 - reproduced regression tests;
 - source hashes;
-- independent challenge tests;
+- separate challenge tests;
 - documented errors and version corrections;
-- multi-model cross-validation;
+- multi-model review;
 - real business project materials;
 - external corporate feedback;
 - signed and company-sealed confirmation documents.
@@ -750,14 +694,5 @@ Find and document the error.
 Preserve the evidence.
 Keep the final decision under human control.
 
-I can apply this working method to concrete AI, validation or complex systems
-problems where verifiability, documentation and human decision control are
-important to the client.
+The method is applicable to AI, validation and complex systems problems where verifiability, documentation and human decision control are material requirements.
 
-# VERSION REGISTER
-
-- **v3.0 — 2026-09-18 — Plus motor:** first complete Hungarian Master.
-- **v3.1 — 2026-09-18 — Plus motor:** communication, MATRIX separation and closing revisions.
-- **v3.2 — 2026-09-18 — Claude motor:** MATRIX-00 contractual implication clarified; reproduction environment clarified; earlier evidentiary wording for MATRIX-A added.
-- **v3.3 — 2026-09-18 — Claude motor:** Public GitHub draft; transparent anonymisation, MATRIX-00 evidence-type separation and source-access wording.
-- **v3.3.1 — 2026-09-18 20:37:42 CEST — Plus–Claude cross-validated release:** MATRIX-A explicit Chinese identification corrected; Markdown and numbering errors fixed; overclaims removed; public GitHub edition finalised.
