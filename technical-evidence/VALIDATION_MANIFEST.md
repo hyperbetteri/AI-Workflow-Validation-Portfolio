@@ -1,9 +1,9 @@
 # VALIDATION MANIFEST — Almási Andor AI Workflow & Validation Portfolio
 
-**Public release:** v3.3.1  
-**Manifest timestamp:** 2026-09-18 20:37:42 CEST
+**Public release:** v3.3.2  
+**Manifest timestamp:** 2026-09-19 07:06:55 CEST
 
-This manifest records version-bound validation artefacts and reproduced results used in the portfolio. Hashes below identify specific archived artefacts; they do not imply that every underlying file is published in this repository.
+This manifest records version-bound validation artefacts and reproduced results used in the portfolio. Hashes below identify specific archived artefacts; they do not imply that every underlying file is published in this repository. Here, “separate probe” means a separately executed check within the documented review workflow, not an external third-party audit.
 
 ## RQV v2.7
 
@@ -22,12 +22,12 @@ This manifest records version-bound validation artefacts and reproduced results 
 - Policy block: `HALT`
 - Missing human approval: `REJECT`
 - Nominal-run output SHA-256: `16690212cf61670f2fabfe12a2e7179e139943cd42a9afe3799da7c961205909`
-- Independent-probe output SHA-256: `0f49b370711ca2e6247a39bda3d689d964756d626f49adfd9752466ee6ecc2ae`
-- Independent-probe source SHA-256: `5267b868d8cd578a043df2e09753e8b6348976b11ac39141ed9fe6c42fb9a97a`
+- Separate-probe output SHA-256: `0f49b370711ca2e6247a39bda3d689d964756d626f49adfd9752466ee6ecc2ae`
+- Separate-probe source SHA-256: `5267b868d8cd578a043df2e09753e8b6348976b11ac39141ed9fe6c42fb9a97a`
 
 ## GEH-Core
 
-- Independent probe source SHA-256: `4fda8a875ae1020da7b8e73850736084d2b99f5dac8b746ae4cc6a5912286084`
+- Separate probe source SHA-256: `4fda8a875ae1020da7b8e73850736084d2b99f5dac8b746ae4cc6a5912286084`
 - Base variant output: **13/13** — SHA-256 `b93ce96642fa79bbfb4e699fe85eeefdcdae236335b543572de5d81a14361d6c`
 - Variant 1 output: **13/13** — SHA-256 `1d48b7be3f08696568d4ef127ae98bb411afc32cd76121c5014b6ddfee711183`
 - Variant 2 output: **13/13** — SHA-256 `37860f6e1398afa7854f53d31c0a750414a002db01565ace39bc6dda5f0e13bb`
@@ -36,8 +36,8 @@ This manifest records version-bound validation artefacts and reproduced results 
 
 - Author suite: **48 PASS / 0 FAIL**
 - Author-suite output SHA-256: `9d8e90b4691002c5bbbaf44f2843b613b331ef7410dfb85a0afdad654b951e64`
-- Independent-probe output SHA-256: `ced4021cba7d35a8de0b8099a45aaf2799f0312b502a09cabd813b6c07f38fae`
-- Independent-probe source SHA-256: `d1b4ea54300a9bba3a75176e102d44e120c5b42c2bdcb255593752247aa2b619`
+- Separate-probe output SHA-256: `ced4021cba7d35a8de0b8099a45aaf2799f0312b502a09cabd813b6c07f38fae`
+- Separate-probe source SHA-256: `d1b4ea54300a9bba3a75176e102d44e120c5b42c2bdcb255593752247aa2b619`
 - Current scope: deterministic and primarily lexical; deep semantic comparison is a separate layer.
 
 ## StarLogic BLK5
@@ -45,8 +45,8 @@ This manifest records version-bound validation artefacts and reproduced results 
 - Historical DOCX SHA-256: `abb442c9cf5f7653f26c28035bd63a011bb4055d98b8a73b1f6e0b2602db0e78`
 - Extracted Python SHA-256: `cff2118a1df8f3add6443fd2b443a548909bc0ecdcea6cbf37c41afa17623961`
 - Built-in numeric-run output SHA-256: `2c53624d92a17e7f561439caf25fbaf69460110117f0092da2c494edcc6a545c`
-- Independent drift-sweep output SHA-256: `b0ccccffa4eb17794823fb88a662af164b50e5ecebfa8844a2e908a9961d64ba`
-- Independent drift-probe source SHA-256: `9368a29fecf22be8d9bba96d223e816b673055df683498a39f5d1d1c1e361b2a`
+- Separate drift-sweep output SHA-256: `b0ccccffa4eb17794823fb88a662af164b50e5ecebfa8844a2e908a9961d64ba`
+- Separate drift-probe source SHA-256: `9368a29fecf22be8d9bba96d223e816b673055df683498a39f5d1d1c1e361b2a`
 - Numeric verification: iterations **0–8**, full match with documented values.
 
 ## MATRIX-SYS External Evidence

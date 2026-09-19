@@ -1,6 +1,16 @@
 # CHANGELOG — Public GitHub Portfolio
 
-**Timestamp:** 2026-09-18 20:37:42 CEST
+**Timestamp:** 2026-09-19 07:06:55 CEST
+
+## v3.3.2 — Professional Cleanup
+
+- Replaced ambiguous statistical-sounding `cross-validation` wording with `cross-model review`, `multi-model review` or `cross-checking` where appropriate.
+- Clarified that RQV symptom labels are project-defined heuristics rather than an industry-standard taxonomy.
+- Replaced `independent` wording for internally executed probes with `separate` to avoid implying third-party external audit.
+- Removed internal engine/vendor workflow labels and embedded version history from the public-facing Master documents.
+- Shortened the professional-development section and removed self-evaluative or borrowed-credibility phrasing.
+- Corrected the repository-name example and replaced the inaccurate timestamped-file inventory with a release-history note.
+- Preserved version-bound metrics, hashes, documented limitations and evidence records.
 
 ## v3.3.1 — Public GitHub Edition
 

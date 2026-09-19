@@ -1,8 +1,8 @@
 # AI Workflow & Validation Portfólió — Almási Andor
 
 **Szerepkör:** AI munkafolyamat- és validációs elemző  
-**Nyilvános kiadás:** v3.3.1  
-**Kiadási időbélyeg:** 2026-09-18 20:37:42 CEST
+**Nyilvános kiadás:** v3.3.2  
+**Kiadási időbélyeg:** 2026-09-19 07:06:55 CEST
 
 [Teljes magyar Master](portfolio/PORTFOLIO_MASTER_HU.md) · [English landing page](README.md) · [Technikai validációs jegyzék](technical-evidence/VALIDATION_MANIFEST.md)
 
@@ -10,7 +10,7 @@
 
 Ez a repository **Almási Andor bizonyítékalapú AI workflow- és validációs portfólióját** tartalmazza. A munka az emberi döntéshozatal és a fejlett AI-rendszerek közötti gyakorlati működési rétegre összpontosít: strukturált munkafolyamat-tervezésre, LLM-kimenetek validációjára, human-in-the-loop kontrollra, többmodellű keresztellenőrzésre, auditálhatóságra és provenienciára, prototípusértékelésre és komplex projektstrukturálásra.
 
-Az AI-modelleket különálló elemzési, fejlesztési, ellenőrzési és keresztvalidációs eszközökként használom. A központi elv: az AI-kimenet legyen hasznos, de maradjon tesztelhető, megkérdőjelezhető, visszakövethető és emberi döntési kontroll alatt.
+Az AI-modelleket elkülönített szerepekben használom elemzésre, fejlesztésre, ellenőrzésre és többmodellű felülvizsgálatra. A központi elv: az AI-kimenet legyen hasznos, de maradjon tesztelhető, megkérdőjelezhető, visszakövethető és emberi döntési kontroll alatt.
 
 ## Kiemelt projektek
 
@@ -23,7 +23,7 @@ Kísérleti Python-alapú keretrendszer meghatározott strukturális, lexikai é
 - Reprodukált eredmény: **115 PASS / 0 FAIL**
 - Python compile: **PASS**
 - SHA-256: `ce7401ce03f3c064915c8c7465e426b613be0b13cbc22b95212f548984706ade`
-- Dokumentált tünetosztályok között: `false_certainty`, `intent_drift`, `safety_overgeneralization`, `compression_pressure`.
+- A projekt saját heurisztikus címkéi között: `false_certainty`, `intent_drift`, `safety_overgeneralization`, `compression_pressure`; ezek nem iparági standard taxonómiaként szerepelnek.
 - A mély szemantikai forrásellenőrzés külön validációs réteg.
 
 ### Human-in-the-Loop AI Workflow / AGI-LOOP
@@ -32,7 +32,7 @@ Futtatható state-machine és audit referencia-implementáció explicit állapot
 
 ### GEH-Core / StarLogic
 
-Verziózott kísérleti kontroll-, audit- és kimenet-összehasonlító komponensek. Három megőrzött GEH-Core változat lefordult és egyenként teljesítette ugyanazt a **13/13 független alapfunkciós próbát**. A StarLogicRecenter v1.0.1 szerzői tesztje **48 PASS / 0 FAIL** eredménnyel reprodukálódott; jelenlegi összehasonlító logikája determinisztikus és elsősorban lexikai.
+Verziózott kísérleti kontroll-, audit- és kimenet-összehasonlító komponensek. Három megőrzött GEH-Core változat lefordult és egyenként teljesítette ugyanazt a **13/13 külön alapfunkciós próbát** a dokumentált ellenőrzési folyamatban. A StarLogicRecenter v1.0.1 szerzői tesztje **48 PASS / 0 FAIL** eredménnyel reprodukálódott; jelenlegi összehasonlító logikája determinisztikus és elsősorban lexikai.
 
 ### MATRIX-SYS
 
@@ -56,7 +56,7 @@ A teljes validált forrásfájlok és egyes futtatási artefaktumok nem részei 
 ## Repository-struktúra
 
 ```text
-almasi-andor-ai-validation-portfolio/
+AI-Workflow-Validation-Portfolio/
 ├── README.md
 ├── README_HU.md
 ├── portfolio/
@@ -67,18 +67,9 @@ almasi-andor-ai-validation-portfolio/
 └── CHANGELOG.md
 ```
 
-## Időbélyegzett kanonikus kiadási fájlok
+## Kiadástörténet
 
-A repository a GitHub-aliasok mellett az időbélyegzett kanonikus kiadási példányokat is tartalmazza:
-
-- `README_EN_20260918_203742_CEST.md`
-- `README_HU_20260918_203742_CEST.md`
-- `portfolio/PORTFOLIO_MASTER_EN_v3.3.1_PUBLIC_20260918_203742_CEST.md`
-- `portfolio/PORTFOLIO_MASTER_HU_v3.3.1_PUBLIC_20260918_203742_CEST.md`
-- `technical-evidence/VALIDATION_MANIFEST_20260918_203742_CEST.md`
-- `CHANGELOG_20260918_203742_CEST.md`
-
-Az időbélyeg nélküli fájlnevek GitHub-aliasok az automatikus megjelenítéshez és a stabil belső linkekhez.
+A fenti stabil fájlnevek az aktuális nyilvános változatot jelölik. Korábbi időbélyegzett pillanatképek archiválási céllal megmaradhatnak a repositoryban. A kiadási változások a [CHANGELOG.md](CHANGELOG.md) fájlban követhetők.
 
 ## Lehetséges együttműködési területek
 
