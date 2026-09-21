@@ -4,9 +4,9 @@
 **AI munkafolyamat- és validációs elemző**
 
 - **Logical Object ID:** PORTFOLIO-MASTER-HU
-- **Version:** v3.3.2 (Public GitHub Edition)
-- **Parent version:** v3.3.1 Public GitHub Edition
-- **Release timestamp:** 2026-09-19 07:06:55 CEST
+- **Version:** v3.4.0 (Public GitHub Edition)
+- **Parent version:** v3.3.2 Public GitHub Edition
+- **Release timestamp:** 2026-09-22 00:47:00 CEST
 - **Portfolio owner:** Almási Andor
 - **Preparation:** AI-assisted, cross-model reviewed, human-reviewed
 
@@ -173,6 +173,12 @@ az AI-folyamatok kontrollálhatóságát, auditálhatóságát, determinisztikus
 vizsgálatát és több kimenet összehasonlítását célozzák.
 
 ### 5.1 GEH-Core
+
+A GEH-Core etikai alapú, többmotoros mesterségesintelligencia-validációs keretrendszerként is dokumentált fejlesztés. Nyilvános módszertani alapjai közé tartozik a bizonyítékelsőbbség, a kontextus- és feladatkörvédelem, az ABSTAIN és fail-closed működés, az emberi jóváhagyás és vétójog, a verziózott eseménynapló, a visszajátszható regressziós vizsgálat, valamint a modell-, agent-, jogosultsági és operátori felelősség elkülönítése.
+
+A fejlesztési háttér mintegy öt év mesterségesintelligencia-rendszerekkel végzett gyakorlati munkára, ezen belül több mint három év intenzív, többmotoros LLM-működés, mély logikai viselkedés, kontextuskezelés, hibamintázatok, motorváltások és ember–AI együttműködési folyamatok rendszeres vizsgálatára épül.
+
+Nyilvános dokumentáció: [GEH-Core szakmai összefoglaló](GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [Kutatási háttér](../technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md)
 
 Három megőrzött implementáció került reprodukálásra:
 
