@@ -1,10 +1,10 @@
 # AI Workflow & Validation Portfólió — Almási Andor
 
 **Szerepkör:** AI munkafolyamat- és validációs elemző  
-**Nyilvános kiadás:** v3.3.2  
-**Kiadási időbélyeg:** 2026-09-19 07:06:55 CEST
+**Nyilvános kiadás:** v3.4.0  
+**Kiadási időbélyeg:** 2026-09-22 00:47:00 CEST
 
-[Teljes magyar Master](portfolio/PORTFOLIO_MASTER_HU.md) · [English landing page](README.md) · [Technikai validációs jegyzék](technical-evidence/VALIDATION_MANIFEST.md)
+[Teljes magyar Master](portfolio/PORTFOLIO_MASTER_HU.md) · [GEH-Core nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [GEH-Core kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md) · [English landing page](README.md) · [Technikai validációs jegyzék](technical-evidence/VALIDATION_MANIFEST.md)
 
 ## Rövid összefoglaló
 
@@ -34,6 +34,8 @@ Futtatható state-machine és audit referencia-implementáció explicit állapot
 
 Verziózott kísérleti kontroll-, audit- és kimenet-összehasonlító komponensek. Három megőrzött GEH-Core változat lefordult és egyenként teljesítette ugyanazt a **13/13 külön alapfunkciós próbát** a dokumentált ellenőrzési folyamatban. A StarLogicRecenter v1.0.1 szerzői tesztje **48 PASS / 0 FAIL** eredménnyel reprodukálódott; jelenlegi összehasonlító logikája determinisztikus és elsősorban lexikai.
 
+A nyilvános GEH-Core módszertan etikai alapú, többmotoros validációs keretrendszert ír le, amelynek fő elemei a bizonyítékelsőbbség, a kontextus- és feladatkörvédelem, az ABSTAIN / fail-closed működés, az emberi jóváhagyás és vétójog, a verziózott eseménynapló és a visszajátszható regressziós vizsgálat. A fejlesztési háttér mintegy öt év mesterségesintelligencia-rendszerekkel végzett gyakorlati munkára, ezen belül több mint három év intenzív, többmotoros LLM-működés és mély logikai viselkedés vizsgálatára épül. [Nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [Kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md)
+
 ### MATRIX-SYS
 
 Valós kínai-magyar technológiai együttműködési folyamat strukturálására alkalmazott keretrendszer. A MATRIX-00 a teljes A–J rendszertérképet szervezte, és érdemi írásos partneri felülvizsgálatot kapott. A MATRIX-A, B és C szakaszokat külön aláírt és céges pecséttel ellátott Üzleti Tartalom Megerősítő Levelek támasztják alá. A partnerazonosítók a nyilvános kiadásban nem kerülnek közlésre.
@@ -61,9 +63,13 @@ AI-Workflow-Validation-Portfolio/
 ├── README_HU.md
 ├── portfolio/
 │   ├── PORTFOLIO_MASTER_EN.md
-│   └── PORTFOLIO_MASTER_HU.md
+│   ├── PORTFOLIO_MASTER_HU.md
+│   ├── GEH_CORE_PUBLIC_OVERVIEW_EN.md
+│   └── GEH_CORE_PUBLIC_OVERVIEW_HU.md
 ├── technical-evidence/
-│   └── VALIDATION_MANIFEST.md
+│   ├── VALIDATION_MANIFEST.md
+│   ├── GEH_CORE_RESEARCH_CONTEXT_EN.md
+│   └── GEH_CORE_RESEARCH_CONTEXT_HU.md
 └── CHANGELOG.md
 ```
 
