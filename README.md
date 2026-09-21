@@ -1,8 +1,8 @@
 # AI Workflow & Validation Portfolio — Almási Andor
 
 **Role:** AI Workflow & Validation Analyst  
-**Public release:** v3.4.0  
-**Release timestamp:** 2026-09-22 00:47:00 CEST
+**Public release:** v3.4.1  
+**Release timestamp:** 2026-09-22 00:55:00 CEST
 
 [Full English Master](portfolio/PORTFOLIO_MASTER_EN.md) · [GEH-Core Public Overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [GEH-Core Research Context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md) · [Magyar belépőoldal](README_HU.md) · [Technical Validation Manifest](technical-evidence/VALIDATION_MANIFEST.md)
 
@@ -38,7 +38,7 @@ The public GEH-Core methodology describes an ethics-based, multi-model validatio
 
 ### MATRIX-SYS
 
-A structured framework applied to a real Chinese-Hungarian technology cooperation process. MATRIX-00 organised the overall A–J system map and received substantive written partner review. Separate MATRIX-A, B and C stages are supported by signed and company-sealed Business Content Confirmation Letters. Partner identities are withheld in the public edition.
+A structured framework applied to a real Chinese-Hungarian technology cooperation process. MATRIX-00 organised the overall A–J system map and received substantive written partner review. Separate MATRIX-A, B and C stages are supported by signed and company-sealed Business Content Confirmation Letters. The partner company is identified as **Shenzhen Beisi Wujie Technology Co., Ltd.**; the authorised representative’s name remains omitted in the public edition.
 
 ## Working Method
 
