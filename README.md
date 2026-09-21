@@ -1,10 +1,10 @@
 # AI Workflow & Validation Portfolio — Almási Andor
 
 **Role:** AI Workflow & Validation Analyst  
-**Public release:** v3.3.2  
-**Release timestamp:** 2026-09-19 07:06:55 CEST
+**Public release:** v3.4.0  
+**Release timestamp:** 2026-09-22 00:47:00 CEST
 
-[Full English Master](portfolio/PORTFOLIO_MASTER_EN.md) · [Magyar belépőoldal](README_HU.md) · [Technical Validation Manifest](technical-evidence/VALIDATION_MANIFEST.md)
+[Full English Master](portfolio/PORTFOLIO_MASTER_EN.md) · [GEH-Core Public Overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [GEH-Core Research Context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md) · [Magyar belépőoldal](README_HU.md) · [Technical Validation Manifest](technical-evidence/VALIDATION_MANIFEST.md)
 
 ## Executive Summary
 
@@ -34,6 +34,8 @@ Runnable state-machine and audit reference implementation with explicit states, 
 
 Versioned experimental control, audit and output-comparison components. Three preserved GEH-Core variants compiled and each completed the same **13/13 separate basic-function probe** within the documented review workflow. StarLogicRecenter v1.0.1 reproduced **48 PASS / 0 FAIL** in its author suite; its current comparison logic is deterministic and primarily lexical.
 
+The public GEH-Core methodology describes an ethics-based, multi-model validation framework built around evidence priority, context and task-scope protection, ABSTAIN / fail-closed operation, human approval and veto authority, versioned event logging and replayable regression testing. The development background is based on approximately five years of practical work with AI systems, including more than three years of intensive examination of multi-model LLM operation and deep logical behaviour. [Public overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [Research context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md)
+
 ### MATRIX-SYS
 
 A structured framework applied to a real Chinese-Hungarian technology cooperation process. MATRIX-00 organised the overall A–J system map and received substantive written partner review. Separate MATRIX-A, B and C stages are supported by signed and company-sealed Business Content Confirmation Letters. Partner identities are withheld in the public edition.
@@ -61,9 +63,13 @@ AI-Workflow-Validation-Portfolio/
 ├── README_HU.md
 ├── portfolio/
 │   ├── PORTFOLIO_MASTER_EN.md
-│   └── PORTFOLIO_MASTER_HU.md
+│   ├── PORTFOLIO_MASTER_HU.md
+│   ├── GEH_CORE_PUBLIC_OVERVIEW_EN.md
+│   └── GEH_CORE_PUBLIC_OVERVIEW_HU.md
 ├── technical-evidence/
-│   └── VALIDATION_MANIFEST.md
+│   ├── VALIDATION_MANIFEST.md
+│   ├── GEH_CORE_RESEARCH_CONTEXT_EN.md
+│   └── GEH_CORE_RESEARCH_CONTEXT_HU.md
 └── CHANGELOG.md
 ```
 
