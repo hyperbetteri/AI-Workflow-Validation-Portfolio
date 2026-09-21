@@ -3,9 +3,9 @@
 **AI Workflow & Validation Analyst**
 
 - **Logical Object ID:** PORTFOLIO-MASTER-EN
-- **Version:** v3.3.2 (Public GitHub Edition)
-- **Parent version:** v3.3.1 Public GitHub Edition
-- **Release timestamp:** 2026-09-19 07:06:55 CEST
+- **Version:** v3.4.0 (Public GitHub Edition)
+- **Parent version:** v3.3.2 Public GitHub Edition
+- **Release timestamp:** 2026-09-22 00:47:00 CEST
 - **Portfolio owner:** Almási Andor
 - **Preparation:** AI-assisted, cross-model reviewed, human-reviewed
 
@@ -172,6 +172,12 @@ controllability, auditability, deterministic examination of AI processes and
 comparison of multiple outputs.
 
 ### 5.1 GEH-Core
+
+GEH-Core is also documented as an ethics-based, multi-model artificial-intelligence validation framework. Its public methodology is built around evidence priority, context and task-scope protection, ABSTAIN and fail-closed operation, human approval and veto authority, versioned event logging, replayable regression testing, and separation of model, agent, permission and operator responsibility.
+
+Its development background is based on approximately five years of practical work with artificial intelligence systems, including more than three years of intensive examination of multi-model LLM operation, deep logical behaviour, context management, failure patterns, model handoffs and human–AI collaborative workflows.
+
+Public documentation: [GEH-Core Public Overview](GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [Research Background](../technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md)
 
 Three preserved implementations were reproduced:
 
