@@ -3,9 +3,9 @@
 **AI Workflow & Validation Analyst**
 
 - **Logical Object ID:** PORTFOLIO-MASTER-EN
-- **Version:** v3.4.0 (Public GitHub Edition)
-- **Parent version:** v3.3.2 Public GitHub Edition
-- **Release timestamp:** 2026-09-22 00:47:00 CEST
+- **Version:** v3.4.1 (Public GitHub Edition)
+- **Parent version:** v3.4.0 Public GitHub Edition
+- **Release timestamp:** 2026-09-22 00:55:00 CEST
 - **Portfolio owner:** Almási Andor
 - **Preparation:** AI-assisted, cross-model reviewed, human-reviewed
 
@@ -318,7 +318,7 @@ The original documents:
 - name the authorised representative;
 - refer to the work content of MATRIX-SYS MAIN BLOCK MAP v1.0.
 
-Issuer:         Shenzhen-based technology company — identity withheld in the public edition
+Issuer:         Shenzhen Beisi Wujie Technology Co., Ltd.
 Representative: Authorised company representative / CEO — identity withheld in the public edition
 Position:       CEO (总裁)
 
@@ -648,7 +648,7 @@ available for the MATRIX-A/B/C project stages.
 
 All three refer to the work content of MATRIX-SYS MAIN BLOCK MAP v1.0.
 
-Issuer:          Shenzhen-based technology company — identity withheld in the public edition
+Issuer:          Shenzhen Beisi Wujie Technology Co., Ltd.
 Representative:  Authorised company representative / CEO — identity withheld in the public edition
 Position:        CEO (总裁)
 
