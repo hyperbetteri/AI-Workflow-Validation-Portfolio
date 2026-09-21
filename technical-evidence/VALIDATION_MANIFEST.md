@@ -1,7 +1,7 @@
 # VALIDATION MANIFEST — Almási Andor AI Workflow & Validation Portfolio
 
-**Public release:** v3.3.2  
-**Manifest timestamp:** 2026-09-19 07:06:55 CEST
+**Public release:** v3.4.0  
+**Manifest timestamp:** 2026-09-22 00:47:00 CEST
 
 This manifest records version-bound validation artefacts and reproduced results used in the portfolio. Hashes below identify specific archived artefacts; they do not imply that every underlying file is published in this repository. Here, “separate probe” means a separately executed check within the documented review workflow, not an external third-party audit.
 
@@ -27,6 +27,9 @@ This manifest records version-bound validation artefacts and reproduced results 
 
 ## GEH-Core
 
+- Public methodology overview: [EN](../portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [HU](../portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md)
+- Research context: [EN](GEH_CORE_RESEARCH_CONTEXT_EN.md) · [HU](GEH_CORE_RESEARCH_CONTEXT_HU.md)
+- Public methodology document version: **0.2** — dated **2026-09-22**
 - Separate probe source SHA-256: `4fda8a875ae1020da7b8e73850736084d2b99f5dac8b746ae4cc6a5912286084`
 - Base variant output: **13/13** — SHA-256 `b93ce96642fa79bbfb4e699fe85eeefdcdae236335b543572de5d81a14361d6c`
 - Variant 1 output: **13/13** — SHA-256 `1d48b7be3f08696568d4ef127ae98bb411afc32cd76121c5014b6ddfee711183`
