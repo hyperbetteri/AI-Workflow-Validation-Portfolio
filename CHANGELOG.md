@@ -1,6 +1,13 @@
 # CHANGELOG — Public GitHub Portfolio
 
-**Timestamp:** 2026-09-22 00:47:00 CEST
+**Timestamp:** 2026-09-22 00:55:00 CEST
+
+## v3.4.1 — Partner Company Identification
+
+- Replaced current public anonymisation of the Chinese partner company with the documented company name **Shenzhen Beisi Wujie Technology Co., Ltd.**
+- Kept the authorised representative’s personal name omitted from the public edition.
+- Updated both landing pages, both current Master documents and the validation manifest consistently.
+- Historical timestamped snapshots remain unchanged.
 
 ## v3.4.0 — GEH-Core Public Documentation
 
