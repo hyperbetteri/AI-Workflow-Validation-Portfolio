@@ -1,8 +1,8 @@
 # AI Workflow & Validation Portfólió — Almási Andor
 
 **Szerepkör:** AI munkafolyamat- és validációs elemző  
-**Nyilvános kiadás:** v3.4.0  
-**Kiadási időbélyeg:** 2026-09-22 00:47:00 CEST
+**Nyilvános kiadás:** v3.4.1  
+**Kiadási időbélyeg:** 2026-09-22 00:55:00 CEST
 
 [Teljes magyar Master](portfolio/PORTFOLIO_MASTER_HU.md) · [GEH-Core nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [GEH-Core kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md) · [English landing page](README.md) · [Technikai validációs jegyzék](technical-evidence/VALIDATION_MANIFEST.md)
 
@@ -38,7 +38,7 @@ A nyilvános GEH-Core módszertan etikai alapú, többmotoros validációs keret
 
 ### MATRIX-SYS
 
-Valós kínai-magyar technológiai együttműködési folyamat strukturálására alkalmazott keretrendszer. A MATRIX-00 a teljes A–J rendszertérképet szervezte, és érdemi írásos partneri felülvizsgálatot kapott. A MATRIX-A, B és C szakaszokat külön aláírt és céges pecséttel ellátott Üzleti Tartalom Megerősítő Levelek támasztják alá. A partnerazonosítók a nyilvános kiadásban nem kerülnek közlésre.
+Valós kínai-magyar technológiai együttműködési folyamat strukturálására alkalmazott keretrendszer. A MATRIX-00 a teljes A–J rendszertérképet szervezte, és érdemi írásos partneri felülvizsgálatot kapott. A MATRIX-A, B és C szakaszokat külön aláírt és céges pecséttel ellátott Üzleti Tartalom Megerősítő Levelek támasztják alá. A partnercég név szerint **Shenzhen Beisi Wujie Technology Co., Ltd.**; a felhatalmazott képviselő neve a nyilvános kiadásban továbbra sem kerül közlésre.
 
 ## Munkamódszer
 
