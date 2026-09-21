@@ -4,9 +4,9 @@
 **AI munkafolyamat- és validációs elemző**
 
 - **Logical Object ID:** PORTFOLIO-MASTER-HU
-- **Version:** v3.4.0 (Public GitHub Edition)
-- **Parent version:** v3.3.2 Public GitHub Edition
-- **Release timestamp:** 2026-09-22 00:47:00 CEST
+- **Version:** v3.4.1 (Public GitHub Edition)
+- **Parent version:** v3.4.0 Public GitHub Edition
+- **Release timestamp:** 2026-09-22 00:55:00 CEST
 - **Portfolio owner:** Almási Andor
 - **Preparation:** AI-assisted, cross-model reviewed, human-reviewed
 
@@ -318,7 +318,7 @@ Az eredeti dokumentumok:
 - megnevezik a felhatalmazott képviselőt;
 - a MATRIX-SYS FŐ BLOKK TÉRKÉP v1.0 munkatartalmára hivatkoznak.
 
-Kibocsátó:     Shenzhen-i technológiai vállalat — a vállalat neve a nyilvános változatban nem kerül közlésre
+Kibocsátó:     Shenzhen Beisi Wujie Technology Co., Ltd.
 Képviselő:     Felhatalmazott vállalati képviselő / CEO — neve a nyilvános változatban nem kerül közlésre
 Beosztás:      CEO (总裁)
 
@@ -661,7 +661,7 @@ ellátott Üzleti Tartalom Megerősítő Levelek állnak rendelkezésre.
 
 Mindhárom a MATRIX-SYS FŐ BLOKK TÉRKÉP v1.0 munkatartalmára hivatkozik.
 
-Kibocsátó:  Shenzhen-i technológiai vállalat — a vállalat neve a nyilvános változatban nem kerül közlésre
+Kibocsátó:  Shenzhen Beisi Wujie Technology Co., Ltd.
 Képviselő:  Felhatalmazott vállalati képviselő / CEO — neve a nyilvános változatban nem kerül közlésre
 Beosztás:   CEO (总裁)
 
