@@ -1,7 +1,7 @@
 # VALIDATION MANIFEST — Almási Andor AI Workflow & Validation Portfolio
 
-**Public release:** v3.4.0  
-**Manifest timestamp:** 2026-09-22 00:47:00 CEST
+**Public release:** v3.4.1  
+**Manifest timestamp:** 2026-09-22 00:55:00 CEST
 
 This manifest records version-bound validation artefacts and reproduced results used in the portfolio. Hashes below identify specific archived artefacts; they do not imply that every underlying file is published in this repository. Here, “separate probe” means a separately executed check within the documented review workflow, not an external third-party audit.
 
@@ -61,7 +61,7 @@ This manifest records version-bound validation artefacts and reproduced results 
 - MATRIX-A Chinese content identification: `合作关系中的独立性与信任机制`.
 - MATRIX-B Chinese content identification: `报酬与启动资源`.
 - MATRIX-C Chinese content identification: `员工招聘与组织融入`.
-- Partner/company identities are withheld in the public edition.
+- Partner company: **Shenzhen Beisi Wujie Technology Co., Ltd.** The authorised representative’s name remains omitted in the public edition.
 
 ## Public-Repository Scope
 
