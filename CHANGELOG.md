@@ -1,6 +1,14 @@
 # CHANGELOG — Public GitHub Portfolio
 
-**Timestamp:** 2026-09-19 07:06:55 CEST
+**Timestamp:** 2026-09-22 00:47:00 CEST
+
+## v3.4.0 — GEH-Core Public Documentation
+
+- Added bilingual GEH-Core public professional overviews in Hungarian and English.
+- Split the detailed research background into separate bilingual technical-evidence documents to keep the main overview readable.
+- Added the approved development background: approximately five years of practical AI-system work, including more than three years of intensive multi-model LLM and deep-logical-behaviour examination.
+- Linked the new GEH-Core documentation from both landing pages, both current Master documents and the validation manifest.
+- Preserved the historical v3.3.1 timestamped snapshots without modification.
 
 ## v3.3.2 — Professional Cleanup
 
