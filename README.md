@@ -36,6 +36,10 @@ Versioned experimental control, audit and output-comparison components. Three pr
 
 The public GEH-Core methodology describes an ethics-based, multi-model validation framework built around evidence priority, context and task-scope protection, ABSTAIN / fail-closed operation, human approval and veto authority, versioned event logging and replayable regression testing. The development background is based on approximately five years of practical work with AI systems, including more than three years of intensive examination of multi-model LLM operation and deep logical behaviour. [Public overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [Research context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md)
 
+### VDA-01 — Emergency Decision Support
+
+Experimental axiom-based emergency decision-support framework with a deliberately protected implementation boundary. The preserved validation state completed **35/35 defined validation checks**. Source code, detailed test vectors and reconstruction-relevant implementation details are not part of the public repository. [Public overview](portfolio/VDA01_PUBLIC_OVERVIEW_EN.md)
+
 ### MATRIX-SYS
 
 A structured framework applied to a real Chinese-Hungarian technology cooperation process. MATRIX-00 organised the overall A–J system map and received substantive written partner review. Separate MATRIX-A, B and C stages are supported by signed and company-sealed Business Content Confirmation Letters. The partner company is identified as **Shenzhen Beisi Wujie Technology Co., Ltd.**; the authorised representative’s name remains omitted in the public edition.
