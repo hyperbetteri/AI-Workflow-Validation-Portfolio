@@ -36,6 +36,10 @@ Verziózott kísérleti kontroll-, audit- és kimenet-összehasonlító komponen
 
 A nyilvános GEH-Core módszertan etikai alapú, többmotoros validációs keretrendszert ír le, amelynek fő elemei a bizonyítékelsőbbség, a kontextus- és feladatkörvédelem, az ABSTAIN / fail-closed működés, az emberi jóváhagyás és vétójog, a verziózott eseménynapló és a visszajátszható regressziós vizsgálat. A fejlesztési háttér mintegy öt év mesterségesintelligencia-rendszerekkel végzett gyakorlati munkára, ezen belül több mint három év intenzív, többmotoros LLM-működés és mély logikai viselkedés vizsgálatára épül. [Nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [Kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md)
 
+### VDA-01 — Vészhelyzeti döntéstámogatás
+
+Kísérleti, axiómaalapú vészhelyzeti döntéstámogató keretrendszer tudatosan védett implementációs határral. A megőrzött validációs állapot **35/35 meghatározott validációs ellenőrzést teljesített**. A forráskód, a részletes tesztvektorok és az implementáció visszafejtését segítő részletek nem részei a nyilvános repositorynak. [Nyilvános összefoglaló](portfolio/VDA01_PUBLIC_OVERVIEW_HU.md)
+
 ### MATRIX-SYS
 
 Valós kínai-magyar technológiai együttműködési folyamat strukturálására alkalmazott keretrendszer. A MATRIX-00 a teljes A–J rendszertérképet szervezte, és érdemi írásos partneri felülvizsgálatot kapott. A MATRIX-A, B és C szakaszokat külön aláírt és céges pecséttel ellátott Üzleti Tartalom Megerősítő Levelek támasztják alá. A partnercég név szerint **Shenzhen Beisi Wujie Technology Co., Ltd.**; a felhatalmazott képviselő neve a nyilvános kiadásban továbbra sem kerül közlésre.
