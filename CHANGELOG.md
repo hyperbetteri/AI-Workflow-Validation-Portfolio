@@ -1,5 +1,12 @@
 # CHANGELOG — Public GitHub Portfolio
 
+## VDA-01 — Protected Public Documentation
+
+- Added bilingual public VDA-01 professional overviews.
+- Recorded the preserved **35/35 PASS** validation result.
+- Deliberately excluded executable source, detailed test methodology, test vectors, expected outputs and reconstruction-relevant implementation mechanics.
+- Added VDA-01 to both landing pages and the validation manifest without publishing the protected implementation.
+
 **Timestamp:** 2026-09-22 00:55:00 CEST
 
 ## v3.4.1 — Partner Company Identification
