@@ -12,6 +12,14 @@ Ez a repository **Almási Andor bizonyítékalapú AI workflow- és validációs
 
 Az AI-modelleket elkülönített szerepekben használom elemzésre, fejlesztésre, ellenőrzésre és többmodellű felülvizsgálatra. A központi elv: az AI-kimenet legyen hasznos, de maradjon tesztelhető, megkérdőjelezhető, visszakövethető és emberi döntési kontroll alatt.
 
+## Kiemelt külső bizonyíték — MATRIX-SYS
+
+A MATRIX-SYS projekt nyilvános vizuális bizonyítéka egy valós kínai–magyar technológiai együttműködési folyamatból származik: a kétnyelvű A–J rendszertérkép, valamint a maszkolt MATRIX-A, MATRIX-B és MATRIX-C Üzleti Tartalom Megerősítő Levelek együtt láthatók. A nyilvános bemutatásban a személynév és az aláírás maszkolt; a céges pecsétek láthatók maradnak.
+
+[![MATRIX-SYS nyilvános bizonyíték — rendszertérkép és megerősítő levelek](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)
+
+**A képre kattintva megnyitható a teljes bizonyítéki nézet.**
+
 ## Kiemelt projektek
 
 ### RQV v2.7 — Response Quality Validator
