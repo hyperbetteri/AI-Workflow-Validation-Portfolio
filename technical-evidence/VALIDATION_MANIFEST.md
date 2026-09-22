@@ -52,6 +52,13 @@ This manifest records version-bound validation artefacts and reproduced results 
 - Separate drift-probe source SHA-256: `9368a29fecf22be8d9bba96d223e816b673055df683498a39f5d1d1c1e361b2a`
 - Numeric verification: iterations **0–8**, full match with documented values.
 
+## VDA-01
+
+- Defined validation result: **35/35 PASS**.
+- Public documentation: [EN](../portfolio/VDA01_PUBLIC_OVERVIEW_EN.md) · [HU](../portfolio/VDA01_PUBLIC_OVERVIEW_HU.md)
+- Public evidence scope is intentionally non-reconstructive: executable source, detailed test vectors, expected outputs, internal decision rules and implementation-specific mechanics are withheld from the public repository.
+- The reported result applies to the defined validation set for the preserved implementation state and does not constitute a universal correctness claim.
+
 ## MATRIX-SYS External Evidence
 
 - MATRIX-00: substantive written partner review received **2026-09-01**.
