@@ -12,6 +12,14 @@ This repository contains the evidence-backed AI workflow and validation portfoli
 
 AI models are used in distinct roles for analysis, development, verification and cross-model review. The central principle is that AI output may be useful, but should remain testable, challengeable, traceable and under human decision control.
 
+## Featured External Evidence — MATRIX-SYS
+
+The MATRIX-SYS project includes public visual evidence from a real Chinese-Hungarian technology cooperation process: the bilingual A–J system map together with masked MATRIX-A, MATRIX-B and MATRIX-C Business Content Confirmation Letters. Personal name and signature fields are masked in the public presentation; the company seals remain visible.
+
+[![MATRIX-SYS public evidence — system map and confirmation letters](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)
+
+**Click the image to open the full evidence view.**
+
 ## Selected Projects
 
 ### RQV v2.7 — Response Quality Validator
