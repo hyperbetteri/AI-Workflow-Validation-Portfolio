@@ -1,8 +1,8 @@
 # AI Workflow & Validation Portfolio — Almási Andor
 
 **Role:** AI Workflow & Validation Analyst  
-**Public release:** v3.4.1  
-**Release timestamp:** 2026-09-22 00:55:00 CEST
+**Public release:** v3.5.0  
+**Release timestamp:** 2026-09-24 16:27:53 CEST
 
 [Full English Master](portfolio/PORTFOLIO_MASTER_EN.md) · [GEH-Core Public Overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [GEH-Core Research Context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md) · [Magyar belépőoldal](README_HU.md) · [Technical Validation Manifest](technical-evidence/VALIDATION_MANIFEST.md)
 

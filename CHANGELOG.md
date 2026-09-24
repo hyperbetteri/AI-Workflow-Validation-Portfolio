@@ -1,5 +1,14 @@
 # CHANGELOG — Public GitHub Portfolio
 
+## v3.5.0 — System Architecture & Relationship Graph
+
+- Added the Hungarian public system architecture overview.
+- Added the 14-core / 34-edge GEH logical relationship graph.
+- Documented the high-level MSS 14×14 cross-validation model.
+- Added a conceptual black-box interface example.
+- Defined the current public performance-benchmark boundary.
+- Preserved protected internal rules, weights, thresholds and implementation logic.
+
 ## VDA-01 — Protected Public Documentation
 
 - Added bilingual public VDA-01 professional overviews.
