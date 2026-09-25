@@ -35,7 +35,7 @@ Az AI-motorok jelölt válaszokat, elemzéseket és megoldási irányokat állí
 A külső validációs réteg ezeket ellenőrzi, összeveti és szükség esetén újraértékelésre küldi.  
 A végső döntési kontroll az operátornál marad.
 
-![GEH Logical Core Relationship Graph](./GEH_LOGICAL_CORE_RELATIONSHIP_GRAPH.png)
+![GEH Logical Core Relationship Graph](./GEH_LOGICAL_CORE_RELATIONSHIP_GRAPH.svg)
 
 ---
 
