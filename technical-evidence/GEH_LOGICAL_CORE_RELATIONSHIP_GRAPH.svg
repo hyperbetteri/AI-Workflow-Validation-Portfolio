@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="590" viewBox="0 0 800 590" role="img" aria-labelledby="title desc">
+<title id="title">GEH Logical Core Relationship Graph</title>
+<desc id="desc">Four functional families, fourteen logical cores and thirty-four bidirectional logical relationships.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif}.title{font-size:26px;font-weight:700;fill:#0B5F93}.sub{font-size:14px;fill:#0B5F93}.cluster{font-size:11px;font-weight:700}.name{font-size:13px;font-weight:700;fill:#fff}.role{font-size:9.5px;fill:#fff}.legend{font-size:10px;fill:#334155}.edge{fill:none;stroke-width:1.6;opacity:.48}</style>
+<text x="400" y="30" text-anchor="middle" class="title">GEH Logical Core Relationship Graph</text>
+<text x="400" y="50" text-anchor="middle" class="sub">14 logical cores • 34 bi-directional edges</text>
+<rect x="30" y="45" width="720" height="350" rx="24" fill="#E7F2F8" opacity=".72"/>
+<text x="44" y="63" class="cluster" fill="#0B68A8">STRUCTURAL / PROCESSING FAMILY</text>
+<rect x="30" y="235" width="420" height="185" rx="24" fill="#E7F1EA" opacity=".72"/>
+<text x="44" y="253" class="cluster" fill="#598065">SYNCHRONIZATION / TIME / INTEGRITY FAMILY</text>
+<rect x="30" y="65" width="170" height="180" rx="24" fill="#F9E9E7" opacity=".72"/>
+<text x="44" y="83" class="cluster" fill="#D04A4A">ETHICS / COORDINATION FAMILY</text>
+<rect x="270" y="420" width="330" height="100" rx="24" fill="#F7E8ED" opacity=".72"/>
+<text x="284" y="438" class="cluster" fill="#C94358">DOCUMENTATION / INTERFACE FAMILY</text>
+<path d="M330,85 Q330.0,125.0 330,165" class="edge" stroke="#0B68A8"/>
+<path d="M330,85 Q220.3,99.9 110,110" class="edge" stroke="#5B6470"/>
+<path d="M330,85 Q339.6,270.0 330,455" class="edge" stroke="#5B6470"/>
+<path d="M330,165 Q488.2,125.6 650,105" class="edge" stroke="#0B68A8"/>
+<path d="M330,165 Q492.4,253.3 650,350" class="edge" stroke="#0B68A8"/>
+<path d="M330,165 Q280.8,213.3 235,265" class="edge" stroke="#5B6470"/>
+<path d="M330,165 Q349.6,216.2 360,270" class="edge" stroke="#5B6470"/>
+<path d="M330,165 Q278.7,258.7 245,360" class="edge" stroke="#5B6470"/>
+<path d="M330,165 Q218.2,187.2 105,200" class="edge" stroke="#5B6470"/>
+<path d="M330,165 Q408.8,313.6 500,455" class="edge" stroke="#5B6470"/>
+<path d="M330,165 Q489.9,174.9 650,180" class="edge" stroke="#0B68A8"/>
+<path d="M650,105 Q439.9,178.3 235,265" class="edge" stroke="#5B6470"/>
+<path d="M650,105 Q488.2,278.4 330,455" class="edge" stroke="#5B6470"/>
+<path d="M650,105 Q642.8,142.5 650,180" class="edge" stroke="#0B68A8"/>
+<path d="M235,265 Q170.0,307.5 105,350" class="edge" stroke="#598065"/>
+<path d="M235,265 Q297.9,257.9 360,270" class="edge" stroke="#598065"/>
+<path d="M235,265 Q235.2,313.0 245,360" class="edge" stroke="#598065"/>
+<path d="M235,265 Q165.7,241.1 105,200" class="edge" stroke="#5B6470"/>
+<path d="M235,265 Q442.0,220.1 650,180" class="edge" stroke="#5B6470"/>
+<path d="M235,265 Q442.4,252.9 650,260" class="edge" stroke="#5B6470"/>
+<path d="M235,265 Q288.9,356.8 330,455" class="edge" stroke="#5B6470"/>
+<path d="M360,270 Q304.0,316.9 245,360" class="edge" stroke="#598065"/>
+<path d="M360,270 Q505.2,269.8 650,260" class="edge" stroke="#5B6470"/>
+<path d="M245,360 Q173.2,281.6 105,200" class="edge" stroke="#5B6470"/>
+<path d="M245,360 Q175.5,347.8 105,350" class="edge" stroke="#598065"/>
+<path d="M105,200 Q112.2,275.0 105,350" class="edge" stroke="#5B6470"/>
+<path d="M105,200 Q100.3,154.6 110,110" class="edge" stroke="#D04A4A"/>
+<path d="M650,180 Q659.6,220.0 650,260" class="edge" stroke="#0B68A8"/>
+<path d="M650,180 Q380.0,145.0 110,110" class="edge" stroke="#5B6470"/>
+<path d="M650,180 Q572.9,316.4 500,455" class="edge" stroke="#5B6470"/>
+<path d="M650,260 Q378.1,191.9 110,110" class="edge" stroke="#5B6470"/>
+<path d="M330,455 Q492.2,409.3 650,350" class="edge" stroke="#5B6470"/>
+<path d="M330,455 Q352.1,363.7 360,270" class="edge" stroke="#5B6470"/>
+<path d="M330,455 Q222.9,322.7 105,200" class="edge" stroke="#5B6470"/>
+<rect x="54.0" y="87.0" width="112" height="46" rx="12" fill="#D04A4A" stroke="#ffffff" stroke-width="2"/>
+<text x="110" y="107" text-anchor="middle" class="name">Agenta</text>
+<text x="110" y="123" text-anchor="middle" class="role">task coordination</text>
+<rect x="49.0" y="177.0" width="112" height="46" rx="12" fill="#D04A4A" stroke="#ffffff" stroke-width="2"/>
+<text x="105" y="197" text-anchor="middle" class="name">Ethorán</text>
+<text x="105" y="213" text-anchor="middle" class="role">ethical compliance</text>
+<rect x="274.0" y="62.0" width="112" height="46" rx="12" fill="#0B68A8" stroke="#ffffff" stroke-width="2"/>
+<text x="330" y="82" text-anchor="middle" class="name">Talentum</text>
+<text x="330" y="98" text-anchor="middle" class="role">decision alternatives</text>
+<rect x="274.0" y="142.0" width="112" height="46" rx="12" fill="#0B68A8" stroke="#ffffff" stroke-width="2"/>
+<text x="330" y="162" text-anchor="middle" class="name">Codix</text>
+<text x="330" y="178" text-anchor="middle" class="role">system logic</text>
+<rect x="179.0" y="242.0" width="112" height="46" rx="12" fill="#598065" stroke="#ffffff" stroke-width="2"/>
+<text x="235" y="262" text-anchor="middle" class="name">Synchron</text>
+<text x="235" y="278" text-anchor="middle" class="role">workflow sync</text>
+<rect x="49.0" y="327.0" width="112" height="46" rx="12" fill="#598065" stroke="#ffffff" stroke-width="2"/>
+<text x="105" y="347" text-anchor="middle" class="name">Chronon</text>
+<text x="105" y="363" text-anchor="middle" class="role">time-phase coherence</text>
+<rect x="184.0" y="337.0" width="122" height="46" rx="12" fill="#598065" stroke="#ffffff" stroke-width="2"/>
+<text x="245" y="357" text-anchor="middle" class="name">Archívum</text>
+<text x="245" y="373" text-anchor="middle" class="role">audit memory</text>
+<rect x="304.0" y="247.0" width="112" height="46" rx="12" fill="#598065" stroke="#ffffff" stroke-width="2"/>
+<text x="360" y="267" text-anchor="middle" class="name">Drax</text>
+<text x="360" y="283" text-anchor="middle" class="role">integrity control</text>
+<rect x="594.0" y="82.0" width="112" height="46" rx="12" fill="#0B68A8" stroke="#ffffff" stroke-width="2"/>
+<text x="650" y="102" text-anchor="middle" class="name">Lexikon</text>
+<text x="650" y="118" text-anchor="middle" class="role">semantic structure</text>
+<rect x="594.0" y="157.0" width="112" height="46" rx="12" fill="#0B68A8" stroke="#ffffff" stroke-width="2"/>
+<text x="650" y="177" text-anchor="middle" class="name">Kode GPT</text>
+<text x="650" y="193" text-anchor="middle" class="role">implementation logic</text>
+<rect x="589.0" y="237.0" width="122" height="46" rx="12" fill="#0B68A8" stroke="#ffffff" stroke-width="2"/>
+<text x="650" y="257" text-anchor="middle" class="name">CodeGPT-13</text>
+<text x="650" y="273" text-anchor="middle" class="role">module integration</text>
+<rect x="594.0" y="327.0" width="112" height="46" rx="12" fill="#0B68A8" stroke="#ffffff" stroke-width="2"/>
+<text x="650" y="347" text-anchor="middle" class="name">Codixis</text>
+<text x="650" y="363" text-anchor="middle" class="role">normalization</text>
+<rect x="274.0" y="432.0" width="112" height="46" rx="12" fill="#C94358" stroke="#ffffff" stroke-width="2"/>
+<text x="330" y="452" text-anchor="middle" class="name">Mosa</text>
+<text x="330" y="468" text-anchor="middle" class="role">interface layer</text>
+<rect x="444.0" y="432.0" width="112" height="46" rx="12" fill="#C94358" stroke="#ffffff" stroke-width="2"/>
+<text x="500" y="452" text-anchor="middle" class="name">Expdf</text>
+<text x="500" y="468" text-anchor="middle" class="role">documentation export</text>
+<rect x="30" y="535" width="740" height="38" rx="10" fill="#F8FAFC" stroke="#CBD5E1"/>
+<text x="45" y="550" class="legend" font-weight="700">Functional families</text>
+<rect x="45" y="557" width="14" height="10" rx="2" fill="#0B68A8"/>
+<text x="65" y="566" class="legend">Structural / Processing</text>
+<rect x="225" y="557" width="14" height="10" rx="2" fill="#598065"/>
+<text x="245" y="566" class="legend">Synchronization / Time / Integrity</text>
+<rect x="450" y="557" width="14" height="10" rx="2" fill="#D04A4A"/>
+<text x="470" y="566" class="legend">Ethics / Coordination</text>
+<rect x="630" y="557" width="14" height="10" rx="2" fill="#C94358"/>
+<text x="650" y="566" class="legend">Documentation / Interface</text>
+<text x="770" y="550" text-anchor="end" class="legend">Lines = bidirectional logical relationships</text>
+</svg>
