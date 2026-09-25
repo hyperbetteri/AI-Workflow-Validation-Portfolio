@@ -2,7 +2,7 @@
 
 **Szerepkör:** AI munkafolyamat- és validációs elemző  
 **Nyilvános kiadás:** v3.5.0  
-**Kiadási időbélyeg:** 2026-09-24 16:27:53 CEST
+**Kiadási időbélyeg:** 2026-09-25 09:22:41 CEST
 
 [Teljes magyar Master](portfolio/PORTFOLIO_MASTER_HU.md) · [GEH-Core nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [GEH-Core kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md) · [Rendszerarchitektúra és kapcsolati gráf](technical-evidence/SYSTEM_ARCHITECTURE_OVERVIEW_HU.md) · [English landing page](README.md) · [Technikai validációs jegyzék](technical-evidence/VALIDATION_MANIFEST.md)
 
