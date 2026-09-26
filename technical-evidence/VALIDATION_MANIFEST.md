@@ -1,7 +1,7 @@
 # VALIDATION MANIFEST — Almási Andor AI Workflow & Validation Portfolio
 
-**Public release:** v3.4.1  
-**Manifest timestamp:** 2026-09-22 00:55:00 CEST
+**Public release:** v3.5.0  
+**Manifest timestamp:** 2026-09-25 09:22:41 CEST
 
 This manifest records version-bound validation artefacts and reproduced results used in the portfolio. Hashes below identify specific archived artefacts; they do not imply that every underlying file is published in this repository. Here, “separate probe” means a separately executed check within the documented review workflow, not an external third-party audit.
 
