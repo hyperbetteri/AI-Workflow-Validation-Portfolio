@@ -4,6 +4,7 @@
 
 - Added `CITATION.cff` with repository citation metadata and the English public system architecture overview (`technical-evidence/SYSTEM_ARCHITECTURE_OVERVIEW_EN.md`), translated from the Hungarian version without new claims.
 - Linked the English system architecture overview from the English landing page and added the new files to the repository structure in both landing pages.
+- Added a plain-language preface on reading the core names to both system architecture overviews, completed the repository structure in both landing pages with the MATRIX-SYS external-evidence folder, and added a direct system architecture overview link below it.
 
 ## v3.5.0 — System Architecture & Relationship Graph
 
