@@ -1,5 +1,9 @@
 # CHANGELOG — Public GitHub Portfolio
 
+## Unreleased — Citation & English Architecture Overview
+
+- Added `CITATION.cff` with repository citation metadata and the English public system architecture overview (`technical-evidence/SYSTEM_ARCHITECTURE_OVERVIEW_EN.md`), translated from the Hungarian version without new claims.
+
 ## v3.5.0 — System Architecture & Relationship Graph
 
 - Added the Hungarian public system architecture overview.
