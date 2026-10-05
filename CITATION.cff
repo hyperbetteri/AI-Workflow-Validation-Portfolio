@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use or refer to this portfolio, please cite it as below."
+title: "AI Workflow & Validation Portfolio"
+authors:
+  - family-names: "Almási"
+    given-names: "Andor"
+version: "3.5.0"
+date-released: 2026-09-25
+repository-code: "https://github.com/hyperbetteri/AI-Workflow-Validation-Portfolio"
+url: "https://github.com/hyperbetteri/AI-Workflow-Validation-Portfolio"
+abstract: "This repository contains the evidence-backed AI workflow and validation portfolio of Almási Andor."
