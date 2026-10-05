@@ -85,11 +85,13 @@ AI-Workflow-Validation-Portfolio/
 │   └── MATRIX_SYS_PUBLIC_EVIDENCE.jpg
 ├── technical-evidence/
 │   ├── VALIDATION_MANIFEST.md
+│   ├── SYSTEM_ARCHITECTURE_OVERVIEW_EN.md
 │   ├── SYSTEM_ARCHITECTURE_OVERVIEW_HU.md
 │   ├── GEH_LOGICAL_CORE_RELATIONSHIP_GRAPH.svg
 │   ├── GEH_CORE_RESEARCH_CONTEXT_EN.md
 │   └── GEH_CORE_RESEARCH_CONTEXT_HU.md
-└── CHANGELOG.md
+├── CHANGELOG.md
+└── CITATION.cff
 ```
 
 ## Kiadástörténet
