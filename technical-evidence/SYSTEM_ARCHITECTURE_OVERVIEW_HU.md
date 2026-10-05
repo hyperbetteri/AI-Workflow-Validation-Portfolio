@@ -41,6 +41,10 @@ A végső döntési kontroll az operátornál marad.
 
 ## 3. A 14 logikai mag
 
+**Hogyan olvasd a magok neveit**
+
+A rendszer nem egyetlen MI-válaszra bízza magát, hanem egy választ több, egymástól elkülönített szerepben ellenőriz. A 14 logikai mag mindegyike egy ilyen szerep. A nevek (Talentum, Codix, Lexikon és a többi) ezeknek a szerepeknek a megnevezései: egy név pontosan egy funkciót jelöl, amelyet az alábbi táblázat sorol fel. Nem személyek, nem szereplők és nem tudatos lények. Aki csak a működést akarja érteni, nyugodtan olvassa a funkció oszlopot. A magok kapcsolatait a 4., az ellenőrzési elvet az 5. szakasz írja le.
+
 A „logikai mag” ebben a dokumentumban szerepalapú logikai és munkafolyamat-funkciót jelent.
 
 | Logikai mag | Rövid funkcionális szerep |

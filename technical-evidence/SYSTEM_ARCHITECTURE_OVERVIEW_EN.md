@@ -41,6 +41,10 @@ Final decision control remains with the operator.
 
 ## 3. The 14 Logical Cores
 
+**How to read the core names**
+
+The system does not rely on a single AI answer. It checks an answer in several separate roles, and each of the 14 logical cores is one such role. The names (Talentum, Codix, Lexikon and so on) are labels for these roles: each name stands for exactly one function, listed in the table below. They are not people, characters or conscious entities. A reader can safely ignore the names and read only the function column. The relationships between the cores are described in section 4, the cross-checking principle in section 5.
+
 In this document, “logical core” means a role-based logical and workflow function.
 
 | Logical core | Short functional role |

@@ -89,10 +89,14 @@ AI-Workflow-Validation-Portfolio/
 │   ├── SYSTEM_ARCHITECTURE_OVERVIEW_HU.md
 │   ├── GEH_LOGICAL_CORE_RELATIONSHIP_GRAPH.svg
 │   ├── GEH_CORE_RESEARCH_CONTEXT_EN.md
-│   └── GEH_CORE_RESEARCH_CONTEXT_HU.md
+│   ├── GEH_CORE_RESEARCH_CONTEXT_HU.md
+│   └── matrix-sys-external-evidence/
+│       └── MATRIX_SYS_external_evidence_composite_redacted.jpg
 ├── CHANGELOG.md
 └── CITATION.cff
 ```
+
+Rendszerarchitektúra és kapcsolati gráf: [SYSTEM_ARCHITECTURE_OVERVIEW_HU.md](technical-evidence/SYSTEM_ARCHITECTURE_OVERVIEW_HU.md)
 
 ## Kiadástörténet
 
