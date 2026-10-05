@@ -3,6 +3,7 @@
 ## Unreleased — Citation & English Architecture Overview
 
 - Added `CITATION.cff` with repository citation metadata and the English public system architecture overview (`technical-evidence/SYSTEM_ARCHITECTURE_OVERVIEW_EN.md`), translated from the Hungarian version without new claims.
+- Linked the English system architecture overview from the English landing page and added the new files to the repository structure in both landing pages.
 
 ## v3.5.0 — System Architecture & Relationship Graph
 
