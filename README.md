@@ -4,7 +4,7 @@
 **Public release:** v3.5.0  
 **Release timestamp:** 2026-09-25 09:22:41 CEST
 
-[Full English Master](portfolio/PORTFOLIO_MASTER_EN.md) · [GEH-Core Public Overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [GEH-Core Research Context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md) · [Magyar belépőoldal](README_HU.md) · [Technical Validation Manifest](technical-evidence/VALIDATION_MANIFEST.md)
+[Full English Master](portfolio/PORTFOLIO_MASTER_EN.md) · [GEH-Core Public Overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [GEH-Core Research Context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md) · [System Architecture & Relationship Graph](technical-evidence/SYSTEM_ARCHITECTURE_OVERVIEW_EN.md) · [Magyar belépőoldal](README_HU.md) · [Technical Validation Manifest](technical-evidence/VALIDATION_MANIFEST.md)
 
 ## Executive Summary
 
@@ -85,11 +85,13 @@ AI-Workflow-Validation-Portfolio/
 │   └── MATRIX_SYS_PUBLIC_EVIDENCE.jpg
 ├── technical-evidence/
 │   ├── VALIDATION_MANIFEST.md
+│   ├── SYSTEM_ARCHITECTURE_OVERVIEW_EN.md
 │   ├── SYSTEM_ARCHITECTURE_OVERVIEW_HU.md
 │   ├── GEH_LOGICAL_CORE_RELATIONSHIP_GRAPH.svg
 │   ├── GEH_CORE_RESEARCH_CONTEXT_EN.md
 │   └── GEH_CORE_RESEARCH_CONTEXT_HU.md
-└── CHANGELOG.md
+├── CHANGELOG.md
+└── CITATION.cff
 ```
 
 ## Release History
