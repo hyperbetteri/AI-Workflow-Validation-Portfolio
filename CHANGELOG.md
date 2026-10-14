@@ -1,16 +1,13 @@
 # CHANGELOG — Public GitHub Portfolio
 
-## Unreleased — Citation & English Architecture Overview
+## Unreleased — Publication Scope Reduction
 
-- Added `CITATION.cff` with repository citation metadata and the English public system architecture overview (`technical-evidence/SYSTEM_ARCHITECTURE_OVERVIEW_EN.md`), translated from the Hungarian version without new claims.
-- Linked the English system architecture overview from the English landing page and added the new files to the repository structure in both landing pages.
-- Added a plain-language preface on reading the core names to both system architecture overviews, completed the repository structure in both landing pages with the MATRIX-SYS external-evidence folder, and added a direct system architecture overview link below it.
+- Withdrew the public system architecture overviews (HU, EN) and the logical relationship graph pending the intellectual property review. Their content is no longer part of the public portfolio.
+- Added `CITATION.cff` with repository citation metadata.
 
 ## v3.5.0 — System Architecture & Relationship Graph
 
-- Added the Hungarian public system architecture overview.
-- Added the 14-core / 34-edge GEH logical relationship graph.
-- Documented the high-level MSS 14×14 cross-validation model.
+- Architecture overview and relationship graph content withdrawn (see Unreleased).
 - Added a conceptual black-box interface example.
 - Defined the current public performance-benchmark boundary.
 - Preserved protected internal rules, weights, thresholds and implementation logic.
