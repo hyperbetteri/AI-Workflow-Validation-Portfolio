@@ -18,7 +18,7 @@ Kapcsolat: GitHub, https://github.com/hyperbetteri
 
 A MATRIX-SYS projekt nyilvános vizuális bizonyítéka egy valós kínai–magyar technológiai együttműködési folyamatból származik: a kétnyelvű A–J rendszertérkép, valamint a maszkolt MATRIX-A, MATRIX-B és MATRIX-C Üzleti Tartalom Megerősítő Levelek együtt láthatók. A nyilvános bemutatásban a személynév és az aláírás maszkolt; a céges pecsétek láthatók maradnak.
 
-[![MATRIX-SYS nyilvános bizonyíték — rendszertérkép és megerősítő levelek](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)
+[![MATRIX-SYS nyilvános bizonyíték — rendszertérkép és megerősítő levelek](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)](technical-evidence/matrix-sys-external-evidence/MATRIX_SYS_external_evidence_composite_redacted.jpg)
 
 **A képre kattintva megnyitható a teljes bizonyítéki nézet.**
 
@@ -102,3 +102,14 @@ A fenti stabil fájlnevek az aktuális nyilvános változatot jelölik. Korábbi
 AI-workflow elemzés, LLM-output QA, validációs rendszerek, human-in-the-loop folyamatok, multi-model comparison, AI-prototípusok ellenőrzése, failure-mode analysis, dokumentum- és forrásvalidáció, auditálhatóság és proveniencia, műszaki dokumentációelemzés és komplex projektstrukturálás.
 
 Az együttműködés első lépése lehet egy jól körülhatárolt pilotfeladat vagy validációs probléma, amelynek eredménye közvetlenül megítélhető.
+
+## Kapcsolódó repók
+
+- [LEGAL-RQV-Overview](https://github.com/hyperbetteri/LEGAL-RQV-Overview) — forráshoz kötött keretrendszer jogi munka AI-val történő előkészítésére és ellenőrzésére (magyar és uniós jog), publikus bemutató
+- [AI-Engine-Observations](https://github.com/hyperbetteri/AI-Engine-Observations) — megfigyelések nagy nyelvi modellekkel végzett hosszú távú munkából: memóriahigiénia, hibaminták, viselkedésmérés
+- [Engineering-Case-Studies](https://github.com/hyperbetteri/Engineering-Case-Studies) — energetikai és teljesítményelektronikai mérnöki esettanulmányok
+- [Lunar-Recycling-and-Terminator-Lab](https://github.com/hyperbetteri/Lunar-Recycling-and-Terminator-Lab) — koncepciótanulmányok holdi hulladék-újrahasznosításról és terminátorkövető holdi laborról
+
+---
+
+© 2026 Almási Andor. Minden jog fenntartva.
