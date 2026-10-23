@@ -45,8 +45,10 @@ The objective is not for AI to provide an answer in every case.
 
 The objective is to be able to determine about the final result:
 
+```text
 what it was based on -> how it was produced -> how it was checked ->
 where its operating boundaries are -> who makes the final decision.
+```
 
 ## 2. PROFESSIONAL DEVELOPMENT
 
@@ -67,12 +69,14 @@ Current reference: RQV v2.7
 
 Verified technical data:
 
+```text
   Python source:          1938 lines
   Regression checks:     115
   Reproduced result:     115 PASS / 0 FAIL
   Python compile:        PASS
   SHA-256:
   ce7401ce03f3c064915c8c7465e426b613be0b13cbc22b95212f548984706ade
+```
 
 The v2.7 source documentation itself expects a 115/115 PASS result and also
 records the version-development chain.
@@ -90,6 +94,7 @@ The system separates several functions, including:
 
 Documented symptom classes:
 
+```text
   compression_pressure
   template_pressure
   safety_overgeneralization
@@ -100,6 +105,7 @@ Documented symptom classes:
   policy_style_intrusion
   intent_drift
   operator_context_loss
+```
 
 These are project-defined heuristic labels used by RQV; they are not presented as an industry-standard taxonomy.
 
@@ -133,15 +139,19 @@ control progression.
 
 Reproduced state chain:
 
+```text
 NONE -> INIT -> INTAKE -> DRAFT -> VERIFY -> REVIEW ->
 HITL_GATE -> APPROVED -> EXECUTE -> COMPLETE
+```
 
 Reproduced results:
 
+```text
   NORMAL COMPLETE  ->  True / ok
   TAMPER           ->  hash fail at 4
   POLICY BLOCK     ->  HALT
   NO HUMAN         ->  REJECT
+```
 
 The reference implementation demonstrates:
 
@@ -202,8 +212,10 @@ The examined functions included:
 The reproduction also separated already functioning elements from functions
 still under development. Examples of development hooks include:
 
+```text
   _detect_drift
   _detect_unsubstantiated_facts
+```
 
 The documented state distinguishes implemented behaviour from development hooks and keeps the current operating scope explicit.
 
@@ -213,7 +225,7 @@ StarLogicRecenter is a deterministic lexical/recenter control prototype.
 
 Regression result: 48 PASS / 0 FAIL
 
-In an separate challenge test, an intentionally irrelevant high-confidence
+In a separate challenge test, an intentionally irrelevant high-confidence
 outlier was placed next to two thematically aligned outputs. The system
 identified it as the strongest deviation. In a high-confidence conflict, it
 returned a REGENERATE / HUMAN_GATE direction.
@@ -281,8 +293,10 @@ The project addressed, among other areas:
 
 The structuring logic:
 
+```text
 separate review -> separate discussion -> separate modification ->
 separate approval -> one coherent overall project
+```
 
 ### 6.1 MATRIX-00 — overall system map
 
@@ -318,15 +332,19 @@ The original documents:
 - name the authorised representative;
 - refer to the work content of MATRIX-SYS MAIN BLOCK MAP v1.0.
 
+```text
 Issuer:         Shenzhen Beisi Wujie Technology Co., Ltd.
 Representative: Authorised company representative / CEO — identity withheld in the public edition
 Position:       CEO (总裁)
+```
 
 Document dates:
 
+```text
   MATRIX-A  —  7 September 2026
   MATRIX-B  —  11 September 2026
   MATRIX-C  —  11 September 2026
+```
 
 Chinese content identifications:
 
@@ -389,7 +407,9 @@ The current multi-model review workflow uses manual, prompt-level coordination; 
 When a runnable artefact is available, I prefer actual execution over purely
 textual evaluation.
 
+```text
 Where possible: source -> hash -> compile -> runtime -> challenge test -> result
+```
 
 ### 7.5 Error as part of the development process
 
@@ -427,9 +447,11 @@ With a written assignment:
 
 My typical workflow:
 
+```text
 written assignment -> source verification -> structured AI-assisted analysis ->
 cross-checking and validation -> documented result ->
 correction if required
+```
 
 I have also worked in this format in professionally sensitive areas, including:
 
@@ -442,8 +464,10 @@ I have applied AI-assisted workflows in legal, healthcare, technical and interna
 
 The essence of the work:
 
+```text
 structured input -> controlled AI use -> validation ->
 human review -> verifiable output
+```
 
 The quality of delivery is not determined by whether an AI tool participated in
 the work, but by whether the delivered result is accurate, verifiable and
@@ -456,7 +480,9 @@ communication, terminology checking and cross-model review.
 
 Primary professional title:
 
+```text
   AI Workflow & Validation Analyst
+```
 
 Core working areas:
 
@@ -515,6 +541,7 @@ The RQV v2.7 and AGI-LOOP reference implementations were executed in AI-tool env
 
 ## 12. RQV v2.7 — EVIDENCE RECORD
 
+```text
 Source:               response_validator_v2_7.py
 Source size:          1938 lines
 Regression test:      115 checks
@@ -522,6 +549,7 @@ Reproduced result:    115 PASS / 0 FAIL
 Python compile:       PASS
 SHA-256:
 ce7401ce03f3c064915c8c7465e426b613be0b13cbc22b95212f548984706ade
+```
 
 The source documentation itself describes v2.7 as a directly runnable module
 and expects a 115/115 regression result.
@@ -539,17 +567,25 @@ This precisely defines the current operating scope of the system.
 
 The historical reference code was executed after verbatim extraction.
 
+```text
 Nominal operation:
   NORMAL COMPLETE  ->  (True, 'ok')
+```
 
+```text
 Audit tampering:
   TAMPER           ->  (False, 'hash fail at 4')
+```
 
+```text
 Policy stop:
   POLICY_BLOCK     ->  HALT
+```
 
+```text
 Absence of human approval:
   NO_HUMAN         ->  REJECT
+```
 
 Using a separate hash checker, modification of an intermediate audit block
 was detectable.
@@ -569,9 +605,11 @@ point.
 
 Examined versions:
 
+```text
   GEH Core base
   GEH Core variant 1
   GEH Core variant 2
+```
 
 All three versions completed the same 13 / 13 separate basic-function probe.
 
@@ -592,10 +630,12 @@ This version state is an explicit part of the development documentation.
 
 ## 15. STARLOGICRECENTER — EVIDENCE RECORD
 
+```text
 Version:              v1.0.1
 Regression result:    48 PASS / 0 FAIL
+```
 
-In an separate challenge test, the irrelevant high-confidence outlier was
+In a separate challenge test, the irrelevant high-confidence outlier was
 identified as the strongest deviation.
 
 In a conflict, the system returned a REGENERATE / HUMAN_GATE direction.
@@ -613,8 +653,10 @@ The Python code embedded in the historical document was:
 
 The documented numerical table was verified through separate calculation.
 
+```text
   Iterations: 0-8
   Result:     full match
+```
 
 The BLK5 evidence concerns the reproducibility of the reference implementation
 and the verifiability of the documented numerical results.
@@ -648,21 +690,29 @@ available for the MATRIX-A/B/C project stages.
 
 All three refer to the work content of MATRIX-SYS MAIN BLOCK MAP v1.0.
 
+```text
 Issuer:          Shenzhen Beisi Wujie Technology Co., Ltd.
 Representative:  Authorised company representative / CEO — identity withheld in the public edition
 Position:        CEO (总裁)
+```
 
+```text
 MATRIX-A — 7 September 2026
   Chinese content identification: 合作关系中的独立性与信任机制
   (Independence and trust mechanism within the cooperation relationship)
+```
 
+```text
 MATRIX-B — 11 September 2026
   Chinese content identification: 报酬与启动资源
   (Compensation and startup resources)
+```
 
+```text
 MATRIX-C — 11 September 2026
   Chinese content identification: 员工招聘与组织融入
   (Employee recruitment and organisational integration)
+```
 
 The work content was confirmed with reference to complete document verification,
 process review and internal final review.

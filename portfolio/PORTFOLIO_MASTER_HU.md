@@ -46,8 +46,10 @@ Nem az a célom, hogy az AI minden esetben választ adjon.
 
 A cél az, hogy az elkészült eredményről meg lehessen állapítani:
 
+```text
 miből készült -> hogyan készült -> hogyan ellenőriztük ->
 hol vannak a működési határai -> ki hozza meg a végső döntést.
+```
 
 ## 2. SZAKMAI FEJLŐDÉS
 
@@ -68,12 +70,14 @@ Aktuális referencia: RQV v2.7
 
 Ellenőrzött technikai adatok:
 
+```text
   Python-forrás:          1938 sor
   Regressziós ellenőrzés: 115
   Reprodukált eredmény:   115 PASS / 0 FAIL
   Python compile:         PASS
   SHA-256:
   ce7401ce03f3c064915c8c7465e426b613be0b13cbc22b95212f548984706ade
+```
 
 A v2.7 forrás saját dokumentációja 115/115 PASS eredményt vár, és a verzió
 fejlődési láncát is rögzíti.
@@ -91,6 +95,7 @@ A rendszer különálló funkciókra bontva kezeli többek között:
 
 Dokumentált tünetosztályok:
 
+```text
   compression_pressure
   template_pressure
   safety_overgeneralization
@@ -101,6 +106,7 @@ Dokumentált tünetosztályok:
   policy_style_intrusion
   intent_drift
   operator_context_loss
+```
 
 Ezek az RQV projekten belül definiált heurisztikus címkék; nem iparági standard taxonómiaként szerepelnek.
 
@@ -133,15 +139,19 @@ kapuk és emberi jóváhagyás szabályozza a továbblépést.
 
 Reprodukált állapotlánc:
 
+```text
 NONE -> INIT -> INTAKE -> DRAFT -> VERIFY -> REVIEW ->
 HITL_GATE -> APPROVED -> EXECUTE -> COMPLETE
+```
 
 Reprodukált eredmények:
 
+```text
   NORMAL COMPLETE  ->  True / ok
   TAMPER           ->  hash fail at 4
   POLICY BLOCK     ->  HALT
   NO HUMAN         ->  REJECT
+```
 
 A referencia-implementáció demonstrálja:
 
@@ -203,8 +213,10 @@ A vizsgált funkciók között szerepelt:
 A reprodukció egyúttal elkülönítette a már működő elemeket a még fejlesztés
 alatt álló funkcióktól. Ilyen fejlesztési hook például:
 
+```text
   _detect_drift
   _detect_unsubstantiated_facts
+```
 
 Ez lehetővé teszi, hogy a GEH-Core-t ne pusztán elméleti elképzelésként,
 hanem verziózott, futtatható és vizsgálható fejlesztési rendszerként kezeljük.
@@ -283,8 +295,10 @@ A projekt többek között az alábbi területeket kezelte:
 
 A strukturálási logika:
 
+```text
 külön ellenőrzés -> külön egyeztetés -> külön módosítás ->
 külön jóváhagyás -> egységes teljes projekt
+```
 
 ### 6.1 MATRIX-00 — teljes rendszertérkép
 
@@ -318,15 +332,19 @@ Az eredeti dokumentumok:
 - megnevezik a felhatalmazott képviselőt;
 - a MATRIX-SYS FŐ BLOKK TÉRKÉP v1.0 munkatartalmára hivatkoznak.
 
+```text
 Kibocsátó:     Shenzhen Beisi Wujie Technology Co., Ltd.
 Képviselő:     Felhatalmazott vállalati képviselő / CEO — neve a nyilvános változatban nem kerül közlésre
 Beosztás:      CEO (总裁)
+```
 
 Dokumentumdátumok:
 
+```text
   MATRIX-A  —  2026. szeptember 7.
   MATRIX-B  —  2026. szeptember 11.
   MATRIX-C  —  2026. szeptember 11.
+```
 
 Kínai tartalmi megjelölések:
 
@@ -391,7 +409,9 @@ A jelenlegi többmodellű felülvizsgálati munkafolyamat kézi, promptszintű k
 Ha futtatható artefaktum áll rendelkezésre, előnyben részesítem a tényleges
 futtatást a pusztán szöveges értékeléssel szemben.
 
+```text
 Ahol lehetséges: forrás -> hash -> compile -> runtime -> ellenpróba -> eredmény
+```
 
 ### 7.5 A hiba a fejlesztési folyamat része
 
@@ -429,9 +449,11 @@ egyszerű adminisztratív forma, hanem minőségbiztosítási módszer.
 
 Jellemző munkafolyamat:
 
+```text
 írásos megbízás -> forrásellenőrzés -> strukturált AI-támogatott elemzés ->
 keresztellenőrzés és validáció -> dokumentált eredmény ->
 szükség esetén korrekció
+```
 
 Szakmailag érzékeny területeken is dolgoztam ilyen formában, többek között:
 
@@ -444,8 +466,10 @@ AI-támogatott munkafolyamatot jogi, egészségügyi, műszaki és nemzetközi �
 
 A munka lényege:
 
+```text
 strukturált input -> kontrollált AI-használat -> validáció ->
 emberi ellenőrzés -> ellenőrizhető output
+```
 
 A teljesítés minőségét nem az határozza meg, hogy AI-eszköz részt vett-e
 a munkában, hanem az, hogy a leadott eredmény pontos, ellenőrizhető és
@@ -458,8 +482,10 @@ terminológiai ellenőrzést és többmodellű felülvizsgálatot is alkalmazok.
 
 Elsődleges szakmai megnevezés:
 
+```text
   AI Workflow & Validation Analyst
   AI munkafolyamat- és validációs elemző
+```
 
 Fő működési területek:
 
@@ -527,6 +553,7 @@ vagy technikai átvilágítás keretében mérlegelhető.
 
 ## 12. RQV v2.7 — BIZONYÍTÉKI REKORD
 
+```text
 Forrás:               response_validator_v2_7.py
 Forrásméret:          1938 sor
 Regressziós teszt:    115 ellenőrzés
@@ -534,6 +561,7 @@ Reprodukált eredmény: 115 PASS / 0 FAIL
 Python compile:       PASS
 SHA-256:
 ce7401ce03f3c064915c8c7465e426b613be0b13cbc22b95212f548984706ade
+```
 
 A forrás saját dokumentációja a v2.7-et közvetlenül futtatható modulnak írja
 le, és 115/115 regressziós eredményt vár.
@@ -551,17 +579,25 @@ Ez pontosan meghatározza a rendszer jelenlegi működési körét.
 
 A történeti referencia-kód verbatim kiemelés után futtatásra került.
 
+```text
 Nominális működés:
   NORMAL COMPLETE  ->  (True, 'ok')
+```
 
+```text
 Auditmanipuláció:
   TAMPER           ->  (False, 'hash fail at 4')
+```
 
+```text
 Policy stop:
   POLICY_BLOCK     ->  HALT
+```
 
+```text
 Emberi jóváhagyás hiánya:
   NO_HUMAN         ->  REJECT
+```
 
 Külön hash-ellenőrzővel egy köztes auditblokk módosítása
 detektálható volt.
@@ -581,9 +617,11 @@ fejlesztési pontot jelentenek.
 
 Vizsgált változatok:
 
+```text
   GEH Core base
   GEH Core variant 1
   GEH Core variant 2
+```
 
 Mindhárom változat ugyanazon 13 / 13 külön alapfunkciós próbát
 teljesítette.
@@ -605,8 +643,10 @@ igényelnek. Ez a verzióállapot a fejlesztési dokumentáció explicit része.
 
 ## 15. STARLOGICRECENTER — BIZONYÍTÉKI REKORD
 
+```text
 Verzió:               v1.0.1
 Regressziós eredmény: 48 PASS / 0 FAIL
+```
 
 Külön challenge-tesztben az irreleváns, magas bizonyosságú outlier
 a legerősebb eltérésként került azonosításra.
@@ -626,8 +666,10 @@ A történeti dokumentumba ágyazott Python-kód:
 
 A dokumentált numerikus táblát külön számítással ellenőriztük.
 
+```text
   Iterációk: 0-8
   Eredmény:  teljes egyezés
+```
 
 A BLK5 bizonyítéka a referencia-implementáció reprodukálhatóságára és a
 dokumentált numerikus eredmények ellenőrizhetőségére vonatkozik.
@@ -661,21 +703,29 @@ ellátott Üzleti Tartalom Megerősítő Levelek állnak rendelkezésre.
 
 Mindhárom a MATRIX-SYS FŐ BLOKK TÉRKÉP v1.0 munkatartalmára hivatkozik.
 
+```text
 Kibocsátó:  Shenzhen Beisi Wujie Technology Co., Ltd.
 Képviselő:  Felhatalmazott vállalati képviselő / CEO — neve a nyilvános változatban nem kerül közlésre
 Beosztás:   CEO (总裁)
+```
 
+```text
 MATRIX-A — 2026. szeptember 7.
   Kínai tartalmi megjelölés: 合作关系中的独立性与信任机制
   (Az együttműködési kapcsolat függetlenségi és bizalmi mechanizmusa)
+```
 
+```text
 MATRIX-B — 2026. szeptember 11.
   Kínai tartalmi megjelölés: 报酬与启动资源
   (Kompenzáció és induló erőforrások)
+```
 
+```text
 MATRIX-C — 2026. szeptember 11.
   Kínai tartalmi megjelölés: 员工招聘与组织融入
   (Munkatársak toborzása és szervezeti integrációja)
+```
 
 A munkatartalmat teljes dokumentum-ellenőrzésre, folyamat-felülvizsgálatra
 és belső végső ellenőrzésre hivatkozva erősítették meg.
