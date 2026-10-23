@@ -95,7 +95,7 @@ AI-Workflow-Validation-Portfolio/
 
 ## Release History
 
-The stable filenames above are the current public version. The earlier timestamped v3.3.1 snapshots have been removed from the file tree; they remain available under the git tag `archive-v3.3.1-snapshots`. Release changes are documented in [CHANGELOG.md](CHANGELOG.md).
+The stable filenames above are the current public version. The earlier timestamped v3.3.1 snapshots have been removed from the file tree; they remain available on the `archive/v3.3.1-snapshots` branch. Release changes are documented in [CHANGELOG.md](CHANGELOG.md).
 
 ## Collaboration Areas
 

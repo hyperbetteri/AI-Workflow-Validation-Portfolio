@@ -4,7 +4,7 @@
 
 - Withdrew the public system architecture overviews (HU, EN) and the logical relationship graph pending the intellectual property review. Their content is no longer part of the public portfolio.
 - Added `CITATION.cff` with repository citation metadata.
-- Removed the historical v3.3.1 timestamped snapshots from the file tree; they remain available under the git tag `archive-v3.3.1-snapshots`.
+- Removed the historical v3.3.1 timestamped snapshots from the file tree; they remain available on the `archive/v3.3.1-snapshots` branch.
 - Public contact set to hyperbetteri@gmail.com; terminology aligned with v3.3.2 (`separate`, `cross-checking`); GEH-Core overview now states that the partner confirmation concerns MATRIX-SYS work content.
 
 ## v3.5.0 — System Architecture & Relationship Graph
