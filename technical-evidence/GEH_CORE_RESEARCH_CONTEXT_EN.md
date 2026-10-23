@@ -4,7 +4,7 @@
 **Version:** 0.2-EN  
 **Date:** September 22, 2026  
 **Document timestamp:** 2026-09-22T00:26:01+02:00  
-**Author:** Almási Andor Aladár
+**Author:** Almási Andor
 
 ## 8. Research Background and Problems That Remain Open
 
@@ -74,13 +74,13 @@ The study indicates that an engine’s own evaluation cannot by itself serve as 
 **GEH-Core connection:**
 
 - no single engine may serve as the exclusive validator of its own operation;
-- independent multi-model cross-validation;
+- separate multi-model cross-checking;
 - hidden or separated validation tasks;
 - regression testing across versions;
 - human expert control;
 - replayability of previous operational states.
 
-The independent validation layer of GEH-Core is designed directly to reduce bias arising from self-evaluation.
+The separate validation layer of GEH-Core is designed directly to reduce bias arising from self-evaluation.
 
 Source quality: preprint based on a large expert-created hidden test set; broader generalizability of the examined goals requires further validation.
 
@@ -104,7 +104,7 @@ This means that agreement between multiple engines does not by itself prove that
 - targeted use of human review capacity;
 - withholding of agreeing but unsupported answers.
 
-GEH-Core cross-validation does not treat model self-evaluation or numerical majority alone as final evidence.
+GEH-Core cross-checking does not treat model self-evaluation or numerical majority alone as final evidence.
 
 Source quality: preprint combining mathematical and empirical modeling; generalization to real operational environments requires further study.
 
@@ -199,7 +199,7 @@ The cited research independently points in the same general direction:
 The development direction of GEH-Core addresses these problems within a unified operational framework through:
 
 - evidence priority;
-- multi-model cross-validation;
+- multi-model cross-checking;
 - structured state handoff;
 - context and task-scope protection;
 - ABSTAIN and fail-closed operation;

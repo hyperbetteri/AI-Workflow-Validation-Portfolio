@@ -196,7 +196,7 @@ Három megőrzött implementáció került reprodukálásra:
 - GEH Core variant 1;
 - GEH Core variant 2.
 
-Mindhárom sikeresen lefordult és ugyanazon 13 / 13 független alapfunkciós
+Mindhárom sikeresen lefordult és ugyanazon 13 / 13 elkülönített alapfunkciós
 próbát teljesítette.
 
 A vizsgált funkciók között szerepelt:

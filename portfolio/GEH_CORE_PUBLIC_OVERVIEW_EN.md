@@ -7,7 +7,7 @@
 **Version:** 0.2-EN – Pre-Approval Version  
 **Date:** September 22, 2026  
 **Document timestamp:** 2026-09-22T00:26:01+02:00  
-**Author:** Almási Andor Aladár
+**Author:** Almási Andor
 
 ## 0. Executive Summary
 
@@ -18,7 +18,7 @@ The system examines the same task using multiple engines that are, as far as rea
 The main elements of the methodology are:
 
 - an internally built ethical and logical foundation;
-- multi-model cross-validation;
+- multi-model cross-checking;
 - evidence priority;
 - context and task-scope protection;
 - ABSTAIN and fail-closed operation;
@@ -29,7 +29,7 @@ The main elements of the methodology are:
 
 The development background of GEH-Core is based on approximately five years of practical work with artificial intelligence systems, including more than three years of intensive work examining multi-model LLM operation, deep logical behavior, context management, failure patterns, model handoffs, and human–AI collaborative workflows.
 
-This work has included continuous observation in real-world workflows, comparison across multiple model families, repeated debugging and regression checking, documented multi-model cross-validation, and practical experience in technical, legal, documentation, and business environments.
+This work has included continuous observation in real-world workflows, comparison across multiple model families, repeated debugging and regression checking, documented multi-model cross-checking, and practical experience in technical, legal, documentation, and business environments.
 
 The framework is not tied to a single model or vendor.
 
@@ -195,19 +195,19 @@ Its current state is:
 
 - a functioning methodological prototype;
 - a multi-model workflow applied to real tasks;
-- a system developed through repeated debugging and cross-validation;
+- a system developed through repeated debugging and cross-checking;
 - an architecture that is partly automatable and partly dependent on human supervision;
 - continuously versioned and reviewed development.
 
 The development background of GEH-Core is based on approximately five years of practical work with artificial intelligence systems, including more than three years of intensive work examining multi-model LLM operation, deep logical behavior, context management, failure patterns, model handoffs, and human–AI collaborative workflows.
 
-This work includes continuous observation in real-world workflows, comparison across multiple model families, repeated debugging and regression checking, documented multi-model cross-validation, and practical experience in technical, legal, documentation, and business environments.
+This work includes continuous observation in real-world workflows, comparison across multiple model families, repeated debugging and regression checking, documented multi-model cross-checking, and practical experience in technical, legal, documentation, and business environments.
 
 ## 7. Development and External Application Background
 
 The methodology did not emerge from laboratory assumptions, but from active technical, documentation, data-management, and multi-model collaborative workflows.
 
-Shenzhen Beisi Wujie Technology Co., Ltd. confirmed the use of the cooperation framework in an official business document.
+Shenzhen Beisi Wujie Technology Co., Ltd. confirmed the work content of the MATRIX-SYS cooperation framework in official business documents (see the portfolio).
 
 This constitutes external business application confirmation, not independent technical certification.
 
@@ -217,7 +217,7 @@ Further development is intended to address:
 - standardization of logging and version-control requirements;
 - separation of model, agent, permission, and operator responsibility;
 - development of replayable regression testing;
-- making multi-model cross-validation measurable;
+- making multi-model cross-checking measurable;
 - preparation for external professional and security review.
 
 ## 8. Research Background and Problems That Remain Open
@@ -269,7 +269,7 @@ The document is solely a public professional overview of the development.
 
 ## 12. Author and Contact
 
-**Author:** Almási Andor Aladár  
+**Author:** Almási Andor  
 **Contact:** hyperbetteri@gmail.com  
 **Document version:** 0.2-EN  
 **Date:** September 22, 2026  
