@@ -195,7 +195,7 @@ Three preserved implementations were reproduced:
 - GEH Core variant 1;
 - GEH Core variant 2.
 
-All three compiled successfully and completed the same 13 / 13 independent
+All three compiled successfully and completed the same 13 / 13 separate
 basic-function probe.
 
 The examined functions included:
@@ -363,7 +363,7 @@ complete document verification, process review and internal final review.
 
 On 12 September 2026, the partner representative stated in writing that the
 Chinese side's original cooperation concept was to involve me in a technical
-and market advisory role. She also indicated that they intended to shape their own team
+and market advisory role. The representative also indicated that they intended to shape their own team
 structure and division of work based on understanding my future work plans and
 professional ideas.
 

@@ -1,10 +1,10 @@
 # AI Workflow & Validation Portfólió — Almási Andor
 
 **Szerepkör:** AI munkafolyamat- és validációs elemző  
-**Nyilvános kiadás:** v3.5.0  
+**Nyilvános kiadás:** v3.5.0 (Master dokumentumok: v3.4.1)  
 **Kiadási időbélyeg:** 2026-09-25 09:22:41 CEST
 
-[Teljes magyar Master](portfolio/PORTFOLIO_MASTER_HU.md) · [GEH-Core nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [GEH-Core kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md) · [English landing page](README.md) · [Technikai validációs jegyzék](technical-evidence/VALIDATION_MANIFEST.md)
+[Teljes magyar Master](portfolio/PORTFOLIO_MASTER_HU.md) · [GEH-Core nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [GEH-Core kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md) · [English landing page](README.md) · [Technikai validációs jegyzék](technical-evidence/VALIDATION_MANIFEST.md) (angol nyelvű)
 
 ## Rövid összefoglaló
 
@@ -12,7 +12,7 @@ Ez a repository **Almási Andor bizonyítékalapú AI workflow- és validációs
 
 Az AI-modelleket elkülönített szerepekben használom elemzésre, fejlesztésre, ellenőrzésre és többmodellű felülvizsgálatra. A központi elv: az AI-kimenet legyen hasznos, de maradjon tesztelhető, megkérdőjelezhető, visszakövethető és emberi döntési kontroll alatt.
 
-Kapcsolat: GitHub, https://github.com/hyperbetteri
+Kapcsolat: [hyperbetteri@gmail.com](mailto:hyperbetteri@gmail.com) · [github.com/hyperbetteri](https://github.com/hyperbetteri)
 
 ## Kiemelt külső bizonyíték — MATRIX-SYS
 
@@ -95,7 +95,7 @@ AI-Workflow-Validation-Portfolio/
 
 ## Kiadástörténet
 
-A fenti stabil fájlnevek az aktuális nyilvános változatot jelölik. Korábbi időbélyegzett pillanatképek archiválási céllal megmaradhatnak a repositoryban. A kiadási változások a [CHANGELOG.md](CHANGELOG.md) fájlban követhetők.
+A fenti stabil fájlnevek az aktuális nyilvános változatot jelölik. A korábbi, időbélyegzett v3.3.1 pillanatképek kikerültek a fájlfából; az `archive/v3.3.1-snapshots` ágon továbbra is elérhetők. A kiadási változások a [CHANGELOG.md](CHANGELOG.md) fájlban követhetők.
 
 ## Lehetséges együttműködési területek
 

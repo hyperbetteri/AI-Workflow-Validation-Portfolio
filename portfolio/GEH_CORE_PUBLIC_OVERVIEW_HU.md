@@ -7,7 +7,7 @@
 **Verzió:** 0.2-HU – jóváhagyás előtti változat  
 **Keltezés:** 2026. szeptember 22.  
 **Dokumentum-időbélyeg:** 2026-09-22T00:26:01+02:00  
-**Szerző:** Almási Andor Aladár
+**Szerző:** Almási Andor
 
 ## 0. Vezetői összefoglaló
 
@@ -207,7 +207,7 @@ Ez a munka folyamatos valós munkafolyamatokon végzett megfigyelést, több mod
 
 A módszertan nem laboratóriumi feltevésekből, hanem aktív műszaki, dokumentációs, adatkezelési és többmotoros együttműködési folyamatokból fejlődött ki.
 
-A Shenzhen Beisi Wujie Technology Co., Ltd. hivatalos üzleti dokumentumban igazolta az együttműködési keretrendszer alkalmazását.
+A Shenzhen Beisi Wujie Technology Co., Ltd. hivatalos üzleti dokumentumokban igazolta a MATRIX-SYS együttműködési keretrendszer munkatartalmát (lásd a portfóliót).
 
 Ez külső üzleti alkalmazási visszaigazolás, nem független műszaki tanúsítás.
 
@@ -269,7 +269,7 @@ A dokumentum kizárólag a fejlesztés nyilvánosan közölhető szakmai összef
 
 ## 12. Szerző és kapcsolat
 
-**Szerző:** Almási Andor Aladár  
+**Szerző:** Almási Andor  
 **Kapcsolat:** hyperbetteri@gmail.com  
 **Dokumentumverzió:** 0.2-HU  
 **Keltezés:** 2026. szeptember 22.  
