@@ -18,7 +18,7 @@ Contact: GitHub, https://github.com/hyperbetteri
 
 The MATRIX-SYS project includes public visual evidence from a real Chinese-Hungarian technology cooperation process: the bilingual A–J system map together with masked MATRIX-A, MATRIX-B and MATRIX-C Business Content Confirmation Letters. Personal name and signature fields are masked in the public presentation; the company seals remain visible.
 
-[![MATRIX-SYS public evidence — system map and confirmation letters](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)
+[![MATRIX-SYS public evidence — system map and confirmation letters](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)](technical-evidence/matrix-sys-external-evidence/MATRIX_SYS_external_evidence_composite_redacted.jpg)
 
 **Click the image to open the full evidence view.**
 
@@ -102,3 +102,14 @@ The stable filenames above are the current public version. Historical timestampe
 Potential areas include AI-workflow analysis, LLM-output QA, validation systems, human-in-the-loop processes, multi-model comparison, AI-prototype evaluation, failure-mode analysis, document/source validation, auditability and provenance, technical documentation analysis, and complex project structuring.
 
 A practical first step can be a clearly defined pilot task or validation problem whose result can be reviewed directly.
+
+## Related Repositories
+
+- [LEGAL-RQV-Overview](https://github.com/hyperbetteri/LEGAL-RQV-Overview) — public overview of a source-bound framework for preparing and checking legal work with AI (Hungarian and EU law)
+- [AI-Engine-Observations](https://github.com/hyperbetteri/AI-Engine-Observations) — observations from long-term work with LLM engines: memory hygiene, failure patterns, behaviour measurement
+- [Engineering-Case-Studies](https://github.com/hyperbetteri/Engineering-Case-Studies) — energy and power-electronics engineering case studies
+- [Lunar-Recycling-and-Terminator-Lab](https://github.com/hyperbetteri/Lunar-Recycling-and-Terminator-Lab) — concept studies for lunar waste recycling and a terminator-following lunar lab
+
+---
+
+© 2026 Almási Andor. All rights reserved.
