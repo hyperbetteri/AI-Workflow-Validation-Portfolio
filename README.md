@@ -1,7 +1,7 @@
 # AI Workflow & Validation Portfolio — Almási Andor
 
 **Role:** AI Workflow & Validation Analyst  
-**Public release:** v3.5.0  
+**Public release:** v3.5.0 (Master documents: v3.4.1)  
 **Release timestamp:** 2026-09-25 09:22:41 CEST
 
 [Full English Master](portfolio/PORTFOLIO_MASTER_EN.md) · [GEH-Core Public Overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [GEH-Core Research Context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md) · [Magyar belépőoldal](README_HU.md) · [Technical Validation Manifest](technical-evidence/VALIDATION_MANIFEST.md)
@@ -12,7 +12,7 @@ This repository contains the evidence-backed AI workflow and validation portfoli
 
 AI models are used in distinct roles for analysis, development, verification and cross-model review. The central principle is that AI output may be useful, but should remain testable, challengeable, traceable and under human decision control.
 
-Contact: GitHub, https://github.com/hyperbetteri
+Contact: [hyperbetteri@gmail.com](mailto:hyperbetteri@gmail.com) · [github.com/hyperbetteri](https://github.com/hyperbetteri)
 
 ## Featured External Evidence — MATRIX-SYS
 
@@ -20,7 +20,7 @@ The MATRIX-SYS project includes public visual evidence from a real Chinese-Hunga
 
 [![MATRIX-SYS public evidence — system map and confirmation letters](portfolio/MATRIX_SYS_PUBLIC_EVIDENCE.jpg)](technical-evidence/matrix-sys-external-evidence/MATRIX_SYS_external_evidence_composite_redacted.jpg)
 
-**Click the image to open the full evidence view.**
+**Click the image to open the full evidence view.** The captions inside the image are in Hungarian: MATRIX-A, B and C confirmation letters (name and signature masked, seal visible) and the MATRIX-SYS main block map.
 
 ## Selected Projects
 
@@ -95,7 +95,7 @@ AI-Workflow-Validation-Portfolio/
 
 ## Release History
 
-The stable filenames above are the current public version. Historical timestamped snapshots may remain in the repository as archival records. Release changes are documented in [CHANGELOG.md](CHANGELOG.md).
+The stable filenames above are the current public version. The earlier timestamped v3.3.1 snapshots have been removed from the file tree; they remain available under the git tag `archive-v3.3.1-snapshots`. Release changes are documented in [CHANGELOG.md](CHANGELOG.md).
 
 ## Collaboration Areas
 
