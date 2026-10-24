@@ -163,7 +163,7 @@ Source quality: preprint and OpenReview entry based on twelve public datasets; i
 **Agent Benchmarks Fail Public Sector Requirements**  
 Direct source: https://arxiv.org/abs/2601.20617
 
-The study analyzed more than 1,300 agent benchmarks to determine whether they satisfy procedural, legal, structural, and realism requirements relevant to public-sector environments.
+The study analyzed more than 1,300 benchmark papers to determine whether the agent benchmarks they describe satisfy procedural, legal, structural, and realism requirements relevant to public-sector environments.
 
 The result was that none of the examined benchmarks satisfied all defined requirements.
 
@@ -180,7 +180,7 @@ This indicates that current general performance measurements alone are insuffici
 
 The GEH-Core approach examines not only whether the system reached the desired final result, but also through what verifiable process that result was reached.
 
-Source quality: expert-reviewed analysis covering more than 1,300 publications; preprint accepted for conference publication.
+Source quality: expert-reviewed analysis covering more than 1,300 publications; preprint.
 
 ### 8.8. Summary Research Conclusion
 
