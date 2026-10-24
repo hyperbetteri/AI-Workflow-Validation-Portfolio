@@ -245,7 +245,7 @@ The purpose of the public material is to present the essence of the development,
 
 This public documentation contains only a high-level professional presentation.
 
-The novelty, protectability, ownership relationships, and appropriate intellectual property protection strategy of the development are planned to be examined with the involvement of patent attorney Dr. Dávid Rozsnyói.
+The novelty, protectability, ownership relationships, and appropriate intellectual property protection strategy of the development are planned to be examined with the involvement of attorney-at-law Dr. Dávid Rozsnyói.
 
 Until the preliminary intellectual property review has been completed, no additional technical detail will be made public from which the protected methodology or its operational know-how could be materially reconstructed.
 
