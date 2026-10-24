@@ -186,8 +186,6 @@ vizsgálatát és több kimenet összehasonlítását célozzák.
 
 A GEH-Core etikai alapú, többmotoros mesterségesintelligencia-validációs keretrendszerként is dokumentált fejlesztés. Nyilvános módszertani alapjai közé tartozik a bizonyítékelsőbbség, a kontextus- és feladatkörvédelem, az ABSTAIN és fail-closed működés, az emberi jóváhagyás és vétójog, a verziózott eseménynapló, a visszajátszható regressziós vizsgálat, valamint a modell-, agent-, jogosultsági és operátori felelősség elkülönítése.
 
-A fejlesztési háttér mintegy öt év mesterségesintelligencia-rendszerekkel végzett gyakorlati munkára, ezen belül több mint három év intenzív, többmotoros LLM-működés, mély logikai viselkedés, kontextuskezelés, hibamintázatok, motorváltások és ember–AI együttműködési folyamatok rendszeres vizsgálatára épül.
-
 Nyilvános dokumentáció: [GEH-Core szakmai összefoglaló](GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [Kutatási háttér](../technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md)
 
 Három megőrzött implementáció került reprodukálásra:

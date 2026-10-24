@@ -185,8 +185,6 @@ comparison of multiple outputs.
 
 GEH-Core is also documented as an ethics-based, multi-model artificial-intelligence validation framework. Its public methodology is built around evidence priority, context and task-scope protection, ABSTAIN and fail-closed operation, human approval and veto authority, versioned event logging, replayable regression testing, and separation of model, agent, permission and operator responsibility.
 
-Its development background is based on approximately five years of practical work with artificial intelligence systems, including more than three years of intensive examination of multi-model LLM operation, deep logical behaviour, context management, failure patterns, model handoffs and human–AI collaborative workflows.
-
 Public documentation: [GEH-Core Public Overview](GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [Research Background](../technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md)
 
 Three preserved implementations were reproduced:

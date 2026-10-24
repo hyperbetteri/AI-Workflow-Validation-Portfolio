@@ -44,7 +44,7 @@ Runnable state-machine and audit reference implementation with explicit states, 
 
 Versioned experimental control, audit and output-comparison components. Three preserved GEH-Core variants compiled and each completed the same **13/13 separate basic-function probe** within the documented review workflow. StarLogicRecenter v1.0.1 reproduced **48 PASS / 0 FAIL** in its author suite; its current comparison logic is deterministic and primarily lexical.
 
-The public GEH-Core methodology describes an ethics-based, multi-model validation framework built around evidence priority, context and task-scope protection, ABSTAIN / fail-closed operation, human approval and veto authority, versioned event logging and replayable regression testing. The development background is based on approximately five years of practical work with AI systems, including more than three years of intensive examination of multi-model LLM operation and deep logical behaviour. [Public overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [Research context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md)
+The public GEH-Core methodology describes an ethics-based, multi-model validation framework built around evidence priority, context and task-scope protection, ABSTAIN / fail-closed operation, human approval and veto authority, versioned event logging and replayable regression testing. [Public overview](portfolio/GEH_CORE_PUBLIC_OVERVIEW_EN.md) · [Research context](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_EN.md)
 
 ### VDA-01 — Emergency Decision Support
 

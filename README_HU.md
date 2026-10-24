@@ -44,7 +44,7 @@ Futtatható state-machine és audit referencia-implementáció explicit állapot
 
 Verziózott kísérleti kontroll-, audit- és kimenet-összehasonlító komponensek. Három megőrzött GEH-Core változat lefordult és egyenként teljesítette ugyanazt a **13/13 külön alapfunkciós próbát** a dokumentált ellenőrzési folyamatban. A StarLogicRecenter v1.0.1 szerzői tesztje **48 PASS / 0 FAIL** eredménnyel reprodukálódott; jelenlegi összehasonlító logikája determinisztikus és elsősorban lexikai.
 
-A nyilvános GEH-Core módszertan etikai alapú, többmotoros validációs keretrendszert ír le, amelynek fő elemei a bizonyítékelsőbbség, a kontextus- és feladatkörvédelem, az ABSTAIN / fail-closed működés, az emberi jóváhagyás és vétójog, a verziózott eseménynapló és a visszajátszható regressziós vizsgálat. A fejlesztési háttér mintegy öt év mesterségesintelligencia-rendszerekkel végzett gyakorlati munkára, ezen belül több mint három év intenzív, többmotoros LLM-működés és mély logikai viselkedés vizsgálatára épül. [Nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [Kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md)
+A nyilvános GEH-Core módszertan etikai alapú, többmotoros validációs keretrendszert ír le, amelynek fő elemei a bizonyítékelsőbbség, a kontextus- és feladatkörvédelem, az ABSTAIN / fail-closed működés, az emberi jóváhagyás és vétójog, a verziózott eseménynapló és a visszajátszható regressziós vizsgálat. [Nyilvános összefoglaló](portfolio/GEH_CORE_PUBLIC_OVERVIEW_HU.md) · [Kutatási háttér](technical-evidence/GEH_CORE_RESEARCH_CONTEXT_HU.md)
 
 ### VDA-01 — Vészhelyzeti döntéstámogatás
 
