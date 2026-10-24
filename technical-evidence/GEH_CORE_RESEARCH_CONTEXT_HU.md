@@ -163,7 +163,7 @@ Forrásminőség: tizenkét nyilvános adathalmazra épülő preprint és OpenRe
 **Agent Benchmarks Fail Public Sector Requirements**  
 Közvetlen forrás: https://arxiv.org/abs/2601.20617
 
-A kutatás több mint 1300 agentes benchmarkot elemzett abból a szempontból, hogy megfelelnek-e a közszférában szükséges eljárási, jogi, szerkezeti és valósághűségi követelményeknek.
+A kutatás több mint 1300, agentes benchmarkokat leíró tudományos cikket elemzett abból a szempontból, hogy az ezekben leírt benchmarkok megfelelnek-e a közszférában szükséges eljárási, jogi, szerkezeti és valósághűségi követelményeknek.
 
 Az eredmény szerint egyetlen vizsgált benchmark sem teljesítette az összes meghatározott feltételt.
 
@@ -180,7 +180,7 @@ Ez azt mutatja, hogy a jelenlegi általános teljesítménymérések önmagukban
 
 A GEH-Core megközelítése nem kizárólag azt vizsgálja, hogy a rendszer elérte-e a kívánt végkimenetelt, hanem azt is, hogy milyen ellenőrizhető folyamaton keresztül jutott oda.
 
-Forrásminőség: több mint 1300 publikációt feldolgozó, szakértőileg ellenőrzött elemzés; konferenciamegjelenésre elfogadott preprint.
+Forrásminőség: több mint 1300 publikációt feldolgozó, szakértőileg ellenőrzött elemzés; preprint.
 
 ### 8.8. Összefoglaló kutatási következtetés
 
