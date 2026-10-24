@@ -210,12 +210,7 @@ The examined functions included:
 - KPI and reporting functions.
 
 The reproduction also separated already functioning elements from functions
-still under development. Examples of development hooks include:
-
-```text
-  _detect_drift
-  _detect_unsubstantiated_facts
-```
+still under development. Examples of functions still under development include drift detection and the detection of unsubstantiated factual claims.
 
 The documented state distinguishes implemented behaviour from development hooks and keeps the current operating scope explicit.
 
@@ -620,8 +615,8 @@ Tested functional areas:
 - recovery;
 - self-heal branches;
 - deterministic replay;
-- RS abort / override;
-- ISV / ethical veto;
+- abort / override;
+- ethical veto;
 - policy gate;
 - KPI reporting.
 

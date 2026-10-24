@@ -95,7 +95,7 @@ AI-Workflow-Validation-Portfolio/
 
 ## Kiadástörténet
 
-A fenti stabil fájlnevek az aktuális nyilvános változatot jelölik. A korábbi, időbélyegzett v3.3.1 pillanatképek kikerültek a fájlfából; az `archive/v3.3.1-snapshots` ágon továbbra is elérhetők. A kiadási változások a [CHANGELOG.md](CHANGELOG.md) fájlban követhetők.
+A fenti stabil fájlnevek az aktuális nyilvános változatot jelölik. A korábbi, időbélyegzett v3.3.1 pillanatképek kikerültek a nyilvános tárhelyből. A kiadási változások a [CHANGELOG.md](CHANGELOG.md) fájlban követhetők.
 
 ## Lehetséges együttműködési területek
 

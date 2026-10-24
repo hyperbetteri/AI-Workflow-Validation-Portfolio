@@ -211,12 +211,7 @@ A vizsgált funkciók között szerepelt:
 - KPI- és riportfunkciók.
 
 A reprodukció egyúttal elkülönítette a már működő elemeket a még fejlesztés
-alatt álló funkcióktól. Ilyen fejlesztési hook például:
-
-```text
-  _detect_drift
-  _detect_unsubstantiated_facts
-```
+alatt álló funkcióktól. Ilyen fejlesztés alatt álló funkció például a sodródás (drift) észlelése és a forrással alá nem támasztott ténymegállapítások felismerése.
 
 Ez lehetővé teszi, hogy a GEH-Core-t ne pusztán elméleti elképzelésként,
 hanem verziózott, futtatható és vizsgálható fejlesztési rendszerként kezeljük.
@@ -633,8 +628,8 @@ Tesztelt funkcióterületek:
 - recovery;
 - self-heal ágak;
 - deterministic replay;
-- RS abort / override;
-- ISV / ethical veto;
+- abort / override;
+- ethical veto;
 - policy gate;
 - KPI reporting.
 

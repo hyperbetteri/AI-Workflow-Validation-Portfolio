@@ -4,7 +4,7 @@
 
 **Public Professional Overview**
 
-**Version:** 0.2-EN – Pre-Approval Version  
+**Version:** 0.2-EN  
 **Date:** September 22, 2026  
 **Document timestamp:** 2026-09-22T00:26:01+02:00  
 **Author:** Almási Andor

@@ -4,7 +4,7 @@
 
 **Nyilvános szakmai összefoglaló**
 
-**Verzió:** 0.2-HU – jóváhagyás előtti változat  
+**Verzió:** 0.2-HU  
 **Keltezés:** 2026. szeptember 22.  
 **Dokumentum-időbélyeg:** 2026-09-22T00:26:01+02:00  
 **Szerző:** Almási Andor
