@@ -125,7 +125,7 @@ A fail-closed működés azt jelenti, hogy bizonytalan vagy nem ellenőrzött á
 
 ### 3.5. Auditálhatóság
 
-Minden döntési lépés naplózott és visszajátszható.
+A rendszer célja, hogy minden döntési lépés naplózott és visszajátszható legyen.
 
 Az auditálhatóság célja annak utólagos megállapíthatósága, hogy:
 
@@ -198,10 +198,6 @@ A jelenlegi állapot:
 - ismételt hibakereséssel és keresztvalidációval fejlesztett rendszer;
 - részben automatizálható, részben emberi felügyeletet igénylő architektúra;
 - folyamatosan verziózott és ellenőrzött fejlesztés.
-
-A GEH-Core fejlesztési háttere mintegy öt év mesterségesintelligencia-rendszerekkel végzett gyakorlati munkára, ezen belül több mint három év intenzív, többmotoros LLM-működés, mély logikai viselkedés, kontextuskezelés, hibamintázatok, motorváltások és ember–AI együttműködési folyamatok rendszeres vizsgálatára épül.
-
-Ez a munka folyamatos valós munkafolyamatokon végzett megfigyelést, több modellcsalád összehasonlítását, ismételt hibakeresést és regressziós ellenőrzést, dokumentált többmotoros keresztvalidációt, valamint műszaki, jogi, dokumentációs és üzleti környezetben szerzett gyakorlati tapasztalatot foglal magában.
 
 ## 7. Fejlesztési és külső alkalmazási háttér
 

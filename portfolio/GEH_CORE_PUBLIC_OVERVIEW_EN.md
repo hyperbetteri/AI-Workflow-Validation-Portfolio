@@ -125,7 +125,7 @@ Fail-closed operation means that under uncertain or unverified conditions, the s
 
 ### 3.5. Auditability
 
-Every decision step is logged and replayable.
+The system is designed so that every decision step is logged and replayable.
 
 The purpose of auditability is to make it possible to determine afterward:
 
@@ -198,10 +198,6 @@ Its current state is:
 - a system developed through repeated debugging and cross-checking;
 - an architecture that is partly automatable and partly dependent on human supervision;
 - continuously versioned and reviewed development.
-
-The development background of GEH-Core is based on approximately five years of practical work with artificial intelligence systems, including more than three years of intensive work examining multi-model LLM operation, deep logical behavior, context management, failure patterns, model handoffs, and human–AI collaborative workflows.
-
-This work includes continuous observation in real-world workflows, comparison across multiple model families, repeated debugging and regression checking, documented multi-model cross-checking, and practical experience in technical, legal, documentation, and business environments.
 
 ## 7. Development and External Application Background
 
