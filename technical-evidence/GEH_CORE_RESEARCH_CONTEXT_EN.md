@@ -14,12 +14,12 @@ The studies below directly document these problems. The references are not indep
 
 ### 8.1. Weakening of Mandatory Conditions During Agent Handoffs
 
-**When “Must” Becomes “Maybe”: Constraint Weakening in LLM Agent Workflows**  
+**When “Must” Becomes “Maybe”: Erosion of Workflow Constraints in LLM Agent Handoffs**  
 Direct source: https://arxiv.org/abs/2608.24569
 
 The study examined 1,296 controlled experimental episodes to determine what happens when a mandatory condition identified by one agent passes through summarization, planning, or a handoff to another agent.
 
-The results indicate that the textual content of a condition may be preserved while its mandatory operational force is lost. During normal summary-based handoffs, 100 percent of the examined constraints became deactivated, and prohibited execution occurred in 54.2 percent of cases.
+The results indicate that the textual content of a condition may be preserved while its mandatory operational force is lost. In artifact-only compression probes, normal handoff compression deactivated 100 percent of the examined constraints, and prohibited execution occurred in 54.2 percent of cases.
 
 According to the study, semantic preservation alone does not guarantee preservation of operational state.
 

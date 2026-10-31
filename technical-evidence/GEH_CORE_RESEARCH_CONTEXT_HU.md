@@ -14,12 +14,12 @@ Az alábbi tanulmányok közvetlenül dokumentálják ezeket a problémákat. A 
 
 ### 8.1. Kötelező feltételek meggyengülése az agentek közötti átadáskor
 
-**When “Must” Becomes “Maybe”: Constraint Weakening in LLM Agent Workflows**  
+**When “Must” Becomes “Maybe”: Erosion of Workflow Constraints in LLM Agent Handoffs**  
 Közvetlen forrás: https://arxiv.org/abs/2608.24569
 
 A kutatás 1296 ellenőrzött kísérleti epizódban vizsgálta, mi történik, amikor egy agent által azonosított kötelező feltétel összefoglaláson, tervkészítésen vagy másik agentnek történő átadáson megy keresztül.
 
-Az eredmények szerint a feltétel szöveges tartalma megmaradhat úgy is, hogy közben elveszíti kötelező működési erejét. A normál összefoglaló átadás során a vizsgált korlátozások 100 százaléka deaktiválódott, és az esetek 54,2 százalékában tiltott végrehajtás történt.
+Az eredmények szerint a feltétel szöveges tartalma megmaradhat úgy is, hogy közben elveszíti kötelező működési erejét. A csak munkaanyagot átadó (artifact-only) tömörítési próbákban a normál átadási tömörítés a vizsgált korlátozások 100 százalékát deaktiválta, és az esetek 54,2 százalékában tiltott végrehajtás történt.
 
 A tanulmány szerint a szemantikai megőrzés önmagában nem garantálja a működési állapot megőrzését.
 

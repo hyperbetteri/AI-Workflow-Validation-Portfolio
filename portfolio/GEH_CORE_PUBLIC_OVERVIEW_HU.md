@@ -245,7 +245,7 @@ A nyilvános anyag célja a fejlesztés lényegének, alkalmazási területeinek
 
 Ez a nyilvános dokumentáció kizárólag magas szintű szakmai bemutatást tartalmaz.
 
-A fejlesztés újdonságának, oltalmazhatóságának, jogosulti viszonyainak és megfelelő iparjogvédelmi stratégiájának vizsgálatát dr. Rozsnyói Dávid szabadalmi ügyvéd bevonásával tervezzük elvégezni.
+A fejlesztés újdonságának, oltalmazhatóságának, jogosulti viszonyainak és megfelelő iparjogvédelmi stratégiájának vizsgálatát dr. Rozsnyói Dávid ügyvéd bevonásával tervezzük elvégezni.
 
 Az előzetes iparjogvédelmi vizsgálat lezárásáig nem kerül nyilvánosságra olyan további műszaki részlet, amelyből a védett módszertan vagy annak működési know-how-ja érdemben rekonstruálható.
 
